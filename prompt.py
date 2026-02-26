@@ -1,13 +1,50 @@
-
 # ============================================================
 # Prompt builder
 # ============================================================
 
-def build_user_prompt(code: str) -> str:
-    return USER_PROMPT_TMPL.format(code=code.rstrip())
+def build_user_prompt(code: str, cot: bool = False):
+    """
+    Build prompts.
+    :return: (system_prompt, user_prompt)
+    """
+    if cot:
+        system_prompt = SYSTEM_PROMPT_COT
+        user_prompt = USER_PROMPT_TMPL_COT.format(code=code.rstrip())
+    else:
+        system_prompt = SYSTEM_PROMPT_NO_COT
+        user_prompt = USER_PROMPT_TMPL_NO_COT.format(code=code.rstrip())
+
+    return system_prompt + "\n\n" + user_prompt
 
 
-SYSTEM_PROMPT = """You are given a Python code snippet that already contains an assertion with a placeholder token ??. Execute the code under Python 3.10 semantics and replace ?? with the exact runtime value of the asserted expression. The replacement must be a Python literal (no expressions, no function calls). Do NOT output any extra information. Execute the program step by step before arriving at an answer, and provide the full assertion with the correct output in [ANSWER] and [/ANSWER] tags, following the examples.
+
+SYSTEM_PROMPT_NO_COT = """You are given a Python code snippet that already contains an assertion with a placeholder token ??. Execute the code under Python 3.10 semantics and replace ?? with the exact runtime value of the asserted expression. The replacement must be a Python literal (no expressions, no function calls). Do NOT output any extra information. Provide the full assertion with the correct output in [ANSWER] and [/ANSWER] tags, following the examples.
+
+[PYTHON]
+def f(n):
+    return n
+x = f(17)
+print(f"Result: {x}")
+assert(x == ??)
+[/PYTHON]
+[ANSWER]
+assert(x == 17)
+[/ANSWER]
+
+[PYTHON]
+def f(s):
+    return s + "a"
+y = f("x9j")
+print(f"Target result: {y}")
+assert(y == ??)
+[/PYTHON]
+[ANSWER]
+assert(y == "x9ja")
+[/ANSWER]
+"""
+
+
+SYSTEM_PROMPT_COT = """You are given a Python code snippet that already contains an assertion with a placeholder token ??. Execute the code under Python 3.10 semantics and replace ?? with the exact runtime value of the asserted expression. The replacement must be a Python literal (no expressions, no function calls). Do NOT output any extra information. Execute the program step by step before arriving at an answer, and provide the full assertion with the correct output in [ANSWER] and [/ANSWER] tags, following the examples.
 
 [PYTHON]
 def f(n):
@@ -45,7 +82,16 @@ assert(y == "x9ja")
 [/ANSWER]
 """
 
-USER_PROMPT_TMPL = """
+
+USER_PROMPT_TMPL_NO_COT = """
+[PYTHON]
+{code}
+[/PYTHON]
+[ANSWER]
+"""
+
+
+USER_PROMPT_TMPL_COT = """
 [PYTHON]
 {code}
 [/PYTHON]

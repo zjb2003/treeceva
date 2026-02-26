@@ -53,6 +53,7 @@ class LocalBackend(Backend):
         self.model = LLM(
             model=model_path,
             dtype=dtype,
+            max_model_len=max_length,
             trust_remote_code=trust_remote_code,
             tensor_parallel_size=tensor_parallel_size,
             gpu_memory_utilization=gpu_memory_utilization,
@@ -247,6 +248,7 @@ class LocalBackend(Backend):
         tensor_parallel_size: int = 1,
         gpu_memory_utilization: float = 0.98,
         max_length: int = 2048,
+        batch_size: int = 1,
         stop_words: Optional[list[str]] = None,
     ):
         from transformers import AutoTokenizer
@@ -266,6 +268,8 @@ class LocalBackend(Backend):
             trust_remote_code=trust_remote_code,
             tensor_parallel_size=tensor_parallel_size,
             gpu_memory_utilization=gpu_memory_utilization,
+            max_model_len=max_length,
+            max_num_seqs=batch_size,  # 限制并发数，防止显存爆炸
         )
 
         self.tokenizer = AutoTokenizer.from_pretrained(

@@ -4,7 +4,7 @@ import argparse
 import datetime as dt
 from pathlib import Path
 
-from prompt import SYSTEM_PROMPT, build_user_prompt
+from prompt import build_user_prompt
 from dataset import (
     iter_jsonl,
     extract_original_assert,
@@ -35,8 +35,10 @@ def main():
     ap.add_argument("--batch_size", type=int, default=1)
     ap.add_argument("--temperature", type=float, default=0.0)
     ap.add_argument("--top_p", type=float, default=1.0)
+    ap.add_argument("--max_length", type=int, default=4096)
     ap.add_argument("--max_new_tokens", type=int, default=128)
     ap.add_argument("--resume", action="store_true")
+    ap.add_argument("--cot", action="store_true")
 
     # local
     ap.add_argument("--local_model_path")
@@ -54,7 +56,10 @@ def main():
     
     logger.info("Eval started")
     logger.info("Backend: %s", args.backend)
+    logger.info("Output path: %s", args.output)
     logger.info("Batch size: %d", args.batch_size)
+    logger.info("Temperature: %.2f", args.temperature)
+    logger.info("Cot: %s", args.cot)
     logger.info("enable_thinking: %s", args.enable_thinking)
 
     if args.backend == "local":
@@ -63,6 +68,8 @@ def main():
             dtype=args.dtype,
             trust_remote_code=args.trust_remote_code,
             tensor_parallel_size=args.tensor_parallel_size,
+            max_length=args.max_length,
+            batch_size=args.batch_size,
         )
     else:
         backend = APIBackend(
@@ -112,7 +119,7 @@ def main():
         if args.resume and sample["id"] in existing:
             continue
 
-        prompt = SYSTEM_PROMPT + "\n\n" + build_user_prompt(sample["task"]["code"])
+        prompt = build_user_prompt(sample["task"]["code"], cot=args.cot)
         batch_samples.append(sample)
         batch_prompts.append(prompt)
 

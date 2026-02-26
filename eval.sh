@@ -19,25 +19,37 @@ source /apps/soft/anaconda3/bin/activate
 conda activate /home/fit/zhoum/WORK/miniconda3/envs/codesense
 #conda环境选择
 
-# MODEL_PATH=/home/fit/zhoum/WORK/llms/models/Qwen/Qwen2.5-7B-Instruct
-# MODEL=Qwen2.5-7B-Instruct_thought
+# DATASET=./data/cross_function_with_assert.jsonl
+DATASET=./data/cross_function_2000_with_assert.jsonl
 
-# MODEL_PATH=/home/fit/zhoum/WORK/llms/models/base/Qwen2.5-7B
-# MODEL=Qwen2.5-7B_thought
+MODEL_PATH=/home/fit/zhoum/WORK/llms/models/base/Qwen3-Coder-30B-A3B-Instruct
+MODEL=Qwen3-Coder-30B-A3B-Instruct_thought
 
-MODEL_PATH=/home/fit/zhoum/WORK/llms/models/base/Qwen2.5-Coder-7B
-MODEL=Qwen2.5-Coder-7B_thought
+MODEL_PATH=/home/fit/zhoum/WORK/llms/models/base/Qwen3-32B
+MODEL=Qwen3-32B_thought
+
+MODEL_PATH=/home/fit/zhoum/WORK/llms/models/Qwen/Qwen3-8B
+MODEL=Qwen3-8B_thought
+
+# MODEL_PATH=/home/fit/zhoum/WORK/llms/models/base/Qwen3-14B
+# MODEL=Qwen3-14B_thought
+
+MODEL_PATH=/home/fit/zhoum/WORK/llms/models/base/QwQ-32B
+MODEL=QwQ-32B_thought
 
 # batch size 决定“一次让模型算多少条输入”
 # tensor_parallel_size 决定“一次让模型用多少张卡来算” 
 python eval_runner.py \
   --backend local \
-  --input ./data/cross_function_with_assert.jsonl \
+  --input $DATASET \
   --output ./result/$MODEL.jsonl \
   --local_model_path $MODEL_PATH \
   --temperature 0 \
+  --resume \
+  --max_length 4096 \
   --max_new_tokens 2048 \
   --batch_size 4 \
-  --tensor_parallel_size 1
+  --tensor_parallel_size 1 \
+  --cot
 
 python analyze_results.py  ./result/$MODEL.jsonl

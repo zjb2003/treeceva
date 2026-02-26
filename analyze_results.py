@@ -8,14 +8,24 @@ import argparse
 import statistics
 from collections import defaultdict, Counter
 from typing import Dict, Any, List
+from dataset import parse_assert_answer, extract_original_assert
+from pathlib import Path
+
+
 
 class TreecEvaAnalyzer:
     """TreecEva 评估结果分析器"""
-    
-    def __init__(self, result_file: str):
+    def __init__(self, result_file: str, dataset_file: str):
         self.result_file = result_file
+        self.dataset_file = dataset_file
+
         self.results = []
+        self.dataset_code_map = {}  # id -> code
+
         self.load_results()
+        if dataset_file:
+            self.load_dataset()
+
     
     def load_results(self):
         """加载结果文件"""
@@ -30,6 +40,32 @@ class TreecEvaAnalyzer:
             print(f"加载结果文件失败: {e}")
             self.results = []
     
+    def load_dataset(self):
+        path = Path(self.dataset_file)
+        if not path.exists():
+            raise FileNotFoundError(f"Dataset file not found: {path}")
+
+        if path.suffix == ".json":
+            data = json.loads(path.read_text(encoding="utf-8"))
+            for item in data:
+                _id = item.get("id")
+                code = item.get("task", {}).get("code")
+                if _id and code:
+                    self.dataset_code_map[_id] = code
+        else:  # jsonl
+            with path.open("r", encoding="utf-8") as f:
+                for line in f:
+                    if not line.strip():
+                        continue
+                    item = json.loads(line)
+                    _id = item.get("id")
+                    code = item.get("task", {}).get("code")
+                    if _id and code:
+                        self.dataset_code_map[_id] = code
+
+        print(f"加载原始数据集 {len(self.dataset_code_map)} 条")
+        print("-" * 30)
+
     def calculate_basic_metrics(self) -> Dict[str, Any]:
         """计算基本指标"""
         total = len(self.results)
@@ -206,22 +242,94 @@ class TreecEvaAnalyzer:
                 report += f"  - {error_type}: {count}\n"
 
         return report
+    
+    def reanalyze_and_update_file(self):
+        updated_results = []
+        changed_count = 0
+        if self.dataset_file is None:
+            print("未提供 dataset_file，无法重新分析。")
+            return
+
+        for r in self.results:
+            sample_id = r.get("id")
+            raw_text = r.get("raw_output", "")
+            gold = r.get("gold_answer")
+
+            # ✅ 从原始数据集中取 code
+            code = self.dataset_code_map.get(sample_id)
+            if not code:
+                r["predicted_answer"] = None
+                r["correct"] = False
+                r["error"] = "missing_dataset_code"
+                updated_results.append(r)
+                continue
+
+            # ✅ 从 code 中提取 original_assert
+            original_assert = extract_original_assert(code)
+            if not original_assert:
+                r["predicted_answer"] = None
+                r["correct"] = False
+                r["error"] = "original_assert_not_found"
+                updated_results.append(r)
+                continue
+
+            # 1. 解析答案
+            pred, error = parse_assert_answer(raw_text, original_assert)
+
+            # 2. 判题
+            if pred is None or gold is None:
+                correct = False
+            else:
+                try:
+                    correct = float(pred) == float(gold)
+                except Exception:
+                    correct = False
+
+            # 3. 统计变更
+            if (
+                r.get("predicted_answer") != pred
+                or r.get("correct") != correct
+                or r.get("error") != error
+            ):
+                changed_count += 1
+
+            # 4. 更新
+            r["predicted_answer"] = pred
+            r["correct"] = correct
+            r["error"] = error
+
+            updated_results.append(r)
+
+        # ✅ 覆盖写回文件
+        with open(self.result_file, "w", encoding="utf-8") as f:
+            for r in updated_results:
+                f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
+        self.results = updated_results
+
+        print(f"重新分析完成，更新 {changed_count} 条")
+        print("-" * 30)
+
 
 def main():
-    parser = argparse.ArgumentParser(description="分析 TreecEva 评估结果 (直接输出)")
-    parser.add_argument('result_file', help="结果文件路径 (JSONL格式)")
-    
-    args = parser.parse_args()
-    
-    # 分析结果
-    analyzer = TreecEvaAnalyzer(args.result_file)
-    
-    if not analyzer.results:
-        return
+    parser = argparse.ArgumentParser()
+    parser.add_argument("result_file")
+    parser.add_argument("--dataset_file", default=None)
+    parser.add_argument("--reanalyze", action="store_true")
 
-    # 生成并打印报告
-    report = analyzer.generate_report()
-    print(report)
+    args = parser.parse_args()
+
+    analyzer = TreecEvaAnalyzer(
+        args.result_file,
+        args.dataset_file
+    )
+
+    if args.reanalyze:
+        analyzer.reanalyze_and_update_file()
+
+    print(analyzer.generate_report())
+
+
 
 if __name__ == "__main__":
     main()
