@@ -1,0 +1,1273 @@
+2026-03-12 13:05:15,326 | INFO | __main__ | Eval started
+2026-03-12 13:05:15,326 | INFO | __main__ | Backend: api
+2026-03-12 13:05:15,326 | INFO | __main__ | Output path: C:\Users\caoye04\Desktop\bench\treeceva\result\GLM-5_thought.jsonl
+2026-03-12 13:05:15,326 | INFO | __main__ | Batch size: 4
+2026-03-12 13:05:15,326 | INFO | __main__ | Temperature: 0.00
+2026-03-12 13:05:15,326 | INFO | __main__ | Cot: False
+2026-03-12 13:05:15,327 | INFO | __main__ | enable_thinking: False
+2026-03-12 13:05:16,290 | INFO | backend | Initializing APIBackend | model=GLM-5 | base_url=https://llmapi.paratera.com/v1/
+2026-03-12 13:05:18,895 | INFO | backend | APIBackend initialized successfully
+Processing samples: 0it [00:00, ?it/s]2026-03-12 13:05:18,915 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:06:20,677 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:06:20,689 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:06:58,685 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:06:58,695 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:07:39,243 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:07:39,245 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:07:48,861 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:07:48,864 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:07:48,864 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:07:48,865 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:07:48,865 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 188it [02:29,  1.25it/s]2026-03-12 13:07:48,866 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:07:52,918 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:07:54,293 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:08:04,507 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:08:35,066 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:08:35,067 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:08:35,067 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:08:35,067 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:08:35,067 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:08:35,067 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 192it [03:16,  1.11s/it]2026-03-12 13:08:35,068 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:08:36,249 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:09:21,692 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:09:21,700 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:09:57,962 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:09:59,318 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:09:59,320 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:09:59,321 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:09:59,321 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:09:59,321 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 196it [04:40,  1.92s/it]2026-03-12 13:09:59,323 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:10:08,983 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:10:41,821 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:10:41,821 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:10:43,138 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:10:44,557 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:10:44,562 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:10:44,562 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:10:44,562 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:10:44,562 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 200it [05:25,  2.43s/it]2026-03-12 13:10:44,564 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:10:45,714 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:10:53,134 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:10:55,858 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:10:58,221 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:10:58,223 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:10:58,223 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:10:58,223 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:10:58,223 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 204it [05:39,  2.51s/it]2026-03-12 13:10:58,223 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:11:02,385 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:11:35,449 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:11:35,453 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:11:51,256 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:11:53,025 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:11:53,027 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:11:53,028 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:11:53,028 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:11:53,028 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 208it [06:34,  3.55s/it]2026-03-12 13:11:53,029 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:11:59,267 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:12:01,714 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:12:37,405 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:12:37,407 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:12:41,035 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:12:41,036 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:12:41,037 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:12:41,037 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:12:41,037 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 212it [07:22,  4.55s/it]2026-03-12 13:12:41,038 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:12:42,358 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:12:53,269 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:13:02,030 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:13:47,539 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:13:47,542 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:13:47,543 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:13:47,543 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:13:47,543 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:13:47,543 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 216it [08:28,  6.29s/it]2026-03-12 13:13:47,544 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:13:51,134 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:13:52,743 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:13:55,954 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:13:58,278 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:13:58,281 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:13:58,281 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:13:58,282 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:13:58,282 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 220it [08:39,  5.68s/it]2026-03-12 13:13:58,283 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:13:59,487 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:14:38,289 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:14:38,295 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:14:44,516 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:14:51,565 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:14:51,566 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:14:51,566 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:14:51,566 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:14:51,566 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 224it [09:32,  7.18s/it]2026-03-12 13:14:51,567 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:14:59,158 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:15:00,887 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:15:39,585 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:15:39,587 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:16:23,259 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:16:23,262 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:16:23,263 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:16:23,263 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:16:23,264 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:16:23,264 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 228it [11:04, 10.63s/it]2026-03-12 13:16:23,265 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:16:52,267 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:16:52,271 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:16:53,998 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:16:55,476 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:17:00,684 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:17:00,688 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:17:00,688 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:17:00,688 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:17:00,688 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 232it [11:41, 10.32s/it]2026-03-12 13:17:00,689 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:17:54,056 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:18:39,574 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:18:39,574 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:18:41,733 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:18:44,545 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:18:44,546 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:18:44,547 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:18:44,547 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:18:44,547 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 236it [13:25, 14.30s/it]2026-03-12 13:18:44,548 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:18:46,046 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:18:47,381 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:18:54,028 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:18:58,673 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:18:58,674 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:18:58,674 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:18:58,675 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:18:58,675 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 240it [13:39, 11.43s/it]2026-03-12 13:18:58,676 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:19:01,266 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:19:37,158 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:19:38,283 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:19:39,562 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:19:39,563 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:19:39,563 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:19:39,563 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:19:39,563 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 244it [14:20, 11.10s/it]2026-03-12 13:19:39,564 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:19:41,012 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:19:43,235 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:19:45,082 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:19:56,174 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:19:56,177 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:19:56,178 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:19:56,178 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:19:56,179 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 248it [14:37,  9.14s/it]2026-03-12 13:19:56,181 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:20:45,260 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:20:45,269 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:21:15,025 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:21:15,035 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:21:57,536 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:21:57,543 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:21:59,741 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:21:59,744 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:21:59,744 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:21:59,744 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:21:59,744 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 252it [16:40, 15.39s/it]2026-03-12 13:21:59,746 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:22:01,134 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:22:46,554 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:22:46,558 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:22:47,882 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:22:49,099 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:22:49,103 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:22:49,103 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:22:49,103 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:22:49,103 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 256it [17:30, 14.50s/it]2026-03-12 13:22:49,104 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:22:58,219 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:23:00,131 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:23:39,166 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:23:39,169 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:24:12,888 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:24:12,893 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:24:12,893 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:24:12,893 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:24:12,894 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 260it [18:53, 16.40s/it]2026-03-12 13:24:12,895 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:24:51,347 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:24:51,353 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:24:52,534 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:24:55,704 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:24:59,934 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:24:59,937 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:24:59,938 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:24:59,938 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:24:59,938 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 264it [19:41, 15.03s/it]2026-03-12 13:24:59,940 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:25:32,335 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:25:55,418 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:25:56,688 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:26:05,085 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:26:05,094 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:26:05,094 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:26:05,094 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:26:05,094 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 268it [20:46, 15.40s/it]2026-03-12 13:26:05,094 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:26:34,986 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:27:05,306 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:27:05,311 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:27:41,202 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:27:41,209 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:27:42,942 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:27:42,942 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:27:42,943 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:27:42,943 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:27:42,943 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 272it [22:24, 18.10s/it]2026-03-12 13:27:42,944 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:27:44,538 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:27:46,191 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:27:47,879 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:27:59,629 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:27:59,629 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:27:59,630 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:27:59,630 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:27:59,630 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 276it [22:40, 13.94s/it]2026-03-12 13:27:59,631 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:28:02,035 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:28:30,563 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:29:12,755 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:29:12,756 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:29:51,140 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:29:51,148 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:29:51,148 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:29:51,148 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:29:51,148 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:29:51,148 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 280it [24:32, 18.11s/it]2026-03-12 13:29:51,149 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:29:55,662 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:30:04,404 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:30:49,317 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:30:49,319 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:30:54,808 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:30:54,811 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:30:54,811 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:30:54,812 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:30:54,812 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 284it [25:35, 17.45s/it]2026-03-12 13:30:54,813 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:31:04,909 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:31:48,903 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:31:48,910 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:32:24,718 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:32:24,719 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:33:01,397 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:33:01,409 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:33:01,411 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:33:01,413 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:33:01,413 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:33:01,413 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 288it [27:42, 21.70s/it]2026-03-12 13:33:01,415 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:33:31,811 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:33:31,822 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:34:01,643 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:34:01,649 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:34:29,204 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:34:29,207 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:35:00,430 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:35:00,431 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:35:00,431 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:35:00,431 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:35:00,431 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:35:00,431 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 292it [29:41, 24.12s/it]2026-03-12 13:35:00,433 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:35:37,524 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:35:37,527 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:36:12,526 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:36:12,530 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:36:54,842 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:36:54,845 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:36:56,558 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:36:56,559 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:36:56,559 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:36:56,559 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:36:56,560 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 296it [31:37, 25.59s/it]2026-03-12 13:36:56,561 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:36:59,045 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:37:38,492 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:37:38,495 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:37:42,259 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:37:53,207 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:37:53,265 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:37:53,265 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:37:53,265 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:37:53,266 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 300it [32:34, 22.17s/it]2026-03-12 13:37:53,267 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:38:04,202 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:38:26,531 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:38:29,267 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:38:33,291 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:38:33,295 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:38:33,296 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:38:33,296 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:38:33,296 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 304it [33:14, 18.52s/it]2026-03-12 13:38:33,298 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:38:38,431 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:38:39,807 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:38:53,253 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:39:44,760 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:39:44,763 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:39:44,763 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:39:44,763 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:39:44,763 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:39:44,763 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 308it [34:25, 18.33s/it]2026-03-12 13:39:44,764 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:40:25,747 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:40:25,750 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:40:28,053 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:40:31,665 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:40:33,137 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:40:33,137 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:40:33,138 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:40:33,138 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:40:33,138 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 312it [35:14, 16.46s/it]2026-03-12 13:40:33,138 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:40:37,183 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:40:39,007 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:40:45,839 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:40:46,894 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:40:46,895 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:40:46,895 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:40:46,895 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:40:46,895 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 316it [35:27, 12.55s/it]2026-03-12 13:40:46,895 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:40:48,385 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:40:58,011 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:40:59,329 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:41:25,634 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:41:25,647 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:41:25,647 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:41:25,647 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:41:25,648 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 320it [36:06, 11.69s/it]2026-03-12 13:41:25,650 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:42:03,989 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:42:03,992 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:42:34,939 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:42:34,942 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:42:36,337 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:42:37,626 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:42:37,627 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:42:37,627 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:42:37,627 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:42:37,627 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 324it [37:18, 13.58s/it]2026-03-12 13:42:37,627 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:42:51,397 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:42:53,868 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:42:58,908 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:43:00,294 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:43:00,297 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:43:00,297 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:43:00,297 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:43:00,297 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 328it [37:41, 11.21s/it]2026-03-12 13:43:00,299 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:43:30,046 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:43:31,286 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:43:36,308 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:43:38,086 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:43:38,089 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:43:38,090 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:43:38,090 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:43:38,091 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 332it [38:19, 10.68s/it]2026-03-12 13:43:38,097 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:43:47,921 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:44:00,210 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:44:34,945 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:45:08,084 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:45:08,088 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:45:08,090 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:45:08,091 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:45:08,091 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:45:08,091 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 336it [39:49, 14.23s/it]2026-03-12 13:45:08,094 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:45:45,036 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:45:45,038 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:46:01,628 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:46:31,793 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:46:34,439 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:46:34,439 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:46:34,440 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:46:34,440 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:46:34,440 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 340it [41:15, 16.43s/it]2026-03-12 13:46:34,441 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:46:46,810 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:46:48,015 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:46:51,048 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:46:52,965 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:46:52,966 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:46:52,966 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:46:52,966 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:46:52,966 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 344it [41:34, 12.89s/it]2026-03-12 13:46:52,966 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:46:56,865 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:47:33,723 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:47:33,724 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:47:38,082 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:47:39,916 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:47:39,921 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:47:39,921 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:47:39,923 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:47:39,924 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 348it [42:21, 12.55s/it]2026-03-12 13:47:39,925 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:47:46,952 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:47:51,033 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:47:52,436 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:48:02,131 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:48:02,146 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:48:02,146 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:48:02,146 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:48:02,146 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 352it [42:43, 10.45s/it]2026-03-12 13:48:02,147 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:48:39,685 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:48:39,689 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:48:40,916 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:48:45,223 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:48:58,719 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:48:58,721 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:48:58,721 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:48:58,721 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:48:58,721 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 356it [43:39, 11.56s/it]2026-03-12 13:48:58,722 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:49:01,861 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:49:35,806 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:49:35,807 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:50:13,214 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:50:13,215 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:51:03,551 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:51:03,552 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:51:03,553 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:51:03,553 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:51:03,553 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:51:03,553 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 360it [45:44, 17.45s/it]2026-03-12 13:51:03,554 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:51:51,206 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:52:00,372 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:52:37,504 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:52:37,506 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:53:16,922 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:53:16,931 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:53:16,931 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:53:16,932 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:53:16,932 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:53:16,932 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 364it [47:58, 22.22s/it]2026-03-12 13:53:16,933 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:53:56,443 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:53:56,446 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:54:34,798 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:54:34,804 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:55:16,720 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:55:16,721 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:55:53,841 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:55:53,844 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:55:53,844 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:55:53,844 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:55:53,844 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:55:53,844 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 368it [50:34, 27.32s/it]2026-03-12 13:55:53,845 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:55:55,867 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:56:06,005 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:56:36,140 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:56:36,143 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:56:37,863 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:56:37,864 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:56:37,865 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:56:37,865 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:56:37,865 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 372it [51:18, 22.43s/it]2026-03-12 13:56:37,866 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:56:53,300 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:56:54,842 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:57:00,738 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:57:28,879 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:57:28,882 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:57:28,884 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:57:28,884 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:57:28,884 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:57:28,884 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 376it [52:09, 19.53s/it]2026-03-12 13:57:28,886 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:57:38,362 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:57:45,577 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:57:47,371 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:57:51,251 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:57:51,255 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:57:51,256 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:57:51,256 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:57:51,256 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 380it [52:32, 15.35s/it]2026-03-12 13:57:51,260 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:58:01,390 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:58:39,241 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:58:39,242 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:59:16,903 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:59:16,904 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:59:50,747 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:59:50,749 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 13:59:50,750 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:59:50,750 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:59:50,750 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:59:50,750 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 384it [54:31, 19.70s/it]2026-03-12 13:59:50,751 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:00:01,044 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:00:40,742 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:00:40,744 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:01:11,060 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:01:26,845 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:01:26,849 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:01:26,850 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:01:26,850 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:01:26,850 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 388it [56:07, 21.00s/it]2026-03-12 14:01:26,854 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:01:52,194 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:02:28,267 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:03:00,046 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:03:40,615 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:03:40,622 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:03:40,624 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:03:40,624 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:03:40,625 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 392it [58:21, 24.73s/it]2026-03-12 14:03:40,627 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:04:21,452 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:04:21,455 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:05:05,139 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:05:05,145 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:05:37,964 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:05:37,965 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:06:18,182 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:06:18,184 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:06:18,186 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:06:18,186 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:06:18,186 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:06:18,186 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 396it [1:00:59, 29.13s/it]2026-03-12 14:06:18,187 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:06:49,047 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:06:51,695 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:06:55,065 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:06:58,435 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:06:58,435 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:06:58,435 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:06:58,435 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:06:58,435 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 400it [1:01:39, 23.41s/it]2026-03-12 14:06:58,436 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:06:59,639 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:07:08,588 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:07:45,995 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:07:45,998 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:07:47,076 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:07:47,078 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:07:47,078 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:07:47,078 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:07:47,078 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 404it [1:02:28, 20.04s/it]2026-03-12 14:07:47,079 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:07:56,416 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:08:01,699 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:08:41,714 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:08:41,715 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:08:43,324 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:08:43,327 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:08:43,327 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:08:43,327 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:08:43,328 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 408it [1:03:24, 18.24s/it]2026-03-12 14:08:43,329 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:08:52,897 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:08:59,898 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:09:44,248 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:09:44,257 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:09:56,398 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:09:56,401 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:09:56,401 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:09:56,401 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:09:56,401 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 412it [1:04:37, 18.25s/it]2026-03-12 14:09:56,403 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:09:57,845 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:10:08,463 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:10:55,217 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:10:55,221 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:11:10,453 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:11:10,457 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:11:10,457 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:11:10,457 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:11:10,458 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 416it [1:05:51, 18.33s/it]2026-03-12 14:11:10,459 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:11:58,218 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:11:58,225 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:12:03,490 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:12:42,720 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:12:42,721 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:12:52,181 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:12:52,183 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:12:52,183 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:12:52,183 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:12:52,183 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 420it [1:07:33, 20.46s/it]2026-03-12 14:12:52,184 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:12:53,495 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:12:58,198 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:13:53,486 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:13:53,499 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:13:58,167 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:13:58,170 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:13:58,171 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:13:58,171 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:13:58,171 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 424it [1:08:39, 19.27s/it]2026-03-12 14:13:58,174 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:14:10,517 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:14:49,392 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:14:49,396 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:15:06,345 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:15:57,627 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:15:57,636 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:15:57,639 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:15:57,639 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:15:57,639 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:15:57,640 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 428it [1:10:38, 22.45s/it]2026-03-12 14:15:57,641 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:16:00,286 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:16:56,568 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:16:56,570 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:17:03,500 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:17:49,911 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:17:49,916 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:17:49,916 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:17:49,917 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:17:49,917 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 432it [1:12:31, 24.14s/it]2026-03-12 14:17:49,919 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:17:56,161 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:17:58,250 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:18:00,703 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:18:50,567 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:18:50,579 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:18:50,579 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:18:50,580 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:18:50,580 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:18:50,580 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 436it [1:13:31, 21.44s/it]2026-03-12 14:18:50,580 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:19:08,823 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:19:41,619 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:19:51,547 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:19:57,566 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:19:57,567 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:19:57,567 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:19:57,567 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:19:57,567 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 440it [1:14:38, 20.04s/it]2026-03-12 14:19:57,568 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:20:01,750 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:20:41,457 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:20:41,469 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:20:42,819 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:20:57,368 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:20:57,368 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:20:57,369 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:20:57,369 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:20:57,369 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 444it [1:15:38, 18.51s/it]2026-03-12 14:20:57,370 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:20:59,873 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:21:51,058 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:21:51,060 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:21:54,078 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:22:00,099 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:22:00,103 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:22:00,103 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:22:00,103 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:22:00,103 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 448it [1:16:41, 17.66s/it]2026-03-12 14:22:00,104 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:22:34,697 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:23:14,264 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:23:14,267 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:24:06,054 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:24:06,057 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:24:52,640 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:24:52,642 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:24:52,643 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:24:52,643 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:24:52,643 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:24:52,643 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 452it [1:19:33, 25.30s/it]2026-03-12 14:24:52,643 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:24:54,563 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:25:46,509 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:26:22,015 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:27:02,753 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:27:02,753 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:27:02,755 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:27:02,755 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:27:02,755 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:27:02,755 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 456it [1:21:43, 27.47s/it]2026-03-12 14:27:02,756 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:27:39,235 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:27:39,240 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:27:47,905 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:27:50,260 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:27:51,498 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:27:51,499 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:27:51,499 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:27:51,499 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:27:51,499 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 460it [1:22:32, 22.89s/it]2026-03-12 14:27:51,500 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:27:53,228 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:27:58,576 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:28:04,440 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:28:52,295 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:28:52,296 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:28:52,297 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:28:52,297 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:28:52,298 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:28:52,298 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 464it [1:23:33, 20.58s/it]2026-03-12 14:28:52,299 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:29:00,988 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:29:54,412 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:29:54,418 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:30:40,410 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:30:40,414 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:30:50,064 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:30:50,067 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:30:50,067 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:30:50,067 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:30:50,068 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 468it [1:25:31, 23.24s/it]2026-03-12 14:30:50,069 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:31:12,854 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:31:50,720 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:31:50,722 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:32:02,778 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:32:44,226 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:32:44,229 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:32:44,231 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:32:44,232 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:32:44,232 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:32:44,232 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 472it [1:27:25, 24.83s/it]2026-03-12 14:32:44,234 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:32:53,352 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:32:55,479 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:33:21,250 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:33:39,950 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:33:39,950 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:33:39,951 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:33:39,951 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:33:39,951 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 476it [1:28:21, 21.56s/it]2026-03-12 14:33:39,951 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:33:43,461 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:33:50,682 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:34:04,479 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:34:44,855 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:34:44,858 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:34:44,860 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:34:44,861 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:34:44,861 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:34:44,861 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 480it [1:29:25, 19.96s/it]2026-03-12 14:34:44,862 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:34:57,482 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:35:02,614 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:35:49,532 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:35:49,534 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:36:04,659 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:36:04,661 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:36:04,661 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:36:04,662 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:36:04,662 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 484it [1:30:45, 19.96s/it]2026-03-12 14:36:04,664 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:36:56,945 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:36:56,987 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:37:42,218 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:37:42,222 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:37:45,990 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:37:58,523 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:37:58,526 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:37:58,527 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:37:58,527 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:37:58,527 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 488it [1:32:39, 22.51s/it]2026-03-12 14:37:58,529 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:38:01,469 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:38:57,911 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:38:57,912 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:39:07,871 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:39:25,949 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:39:25,952 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:39:25,952 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:39:25,952 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:39:25,952 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 492it [1:34:07, 22.31s/it]2026-03-12 14:39:25,953 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:39:52,548 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:40:00,175 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:40:34,084 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:40:34,087 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 414, in generate_batch
+    results.append(resp.choices[0].message.content.strip())
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'strip'
+2026-03-12 14:40:43,815 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:40:43,821 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:40:43,821 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:40:43,821 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:40:43,821 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 496it [1:35:24, 21.46s/it]2026-03-12 14:40:43,821 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:40:47,191 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:40:54,182 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:40:58,740 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:41:04,645 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:41:04,647 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:41:04,647 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:41:04,647 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:41:04,648 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 500it [1:35:45, 16.58s/it]Processing samples: 500it [1:35:45, 11.49s/it]

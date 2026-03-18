@@ -1,0 +1,7 @@
+2026-03-18 20:39:16,611 | INFO | __main__ | Eval started
+2026-03-18 20:39:16,612 | INFO | __main__ | Backend: api
+2026-03-18 20:39:16,612 | INFO | __main__ | Output path: C:\Users\caoye04\Desktop\bench\treeceva\result-cot\o1.jsonl
+2026-03-18 20:39:16,612 | INFO | __main__ | Batch size: 4
+2026-03-18 20:39:16,612 | INFO | __main__ | Temperature: 0.00
+2026-03-18 20:39:16,612 | INFO | __main__ | Cot: True
+2026-03-18 20:39:16,612 | INFO | __main__ | enable_thinking: False

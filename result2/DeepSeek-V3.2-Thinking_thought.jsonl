@@ -1,0 +1,500 @@
+{"id": "id-00006", "predicted_answer": 1662.0, "gold_answer": 1662, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_security_checksum == 1662)\n[/ANSWER]"}
+{"id": "id-00008", "predicted_answer": 240.0, "gold_answer": 240, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(verification_mask == 240)\n[/ANSWER]"}
+{"id": "id-00012", "predicted_answer": 3.0, "gold_answer": 3, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 3)\n[/ANSWER]"}
+{"id": "id-00013", "predicted_answer": 44.5, "gold_answer": 44.5, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 44.5)\n[/ANSWER]"}
+{"id": "id-00014", "predicted_answer": 244.0, "gold_answer": 244, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_checksum == 244)\n[/ANSWER]"}
+{"id": "id-00015", "predicted_answer": 246.0, "gold_answer": 246, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(decoded_value == 246)\n[/ANSWER]"}
+{"id": "id-00018", "predicted_answer": null, "gold_answer": 27, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00019", "predicted_answer": 48.0, "gold_answer": 48, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 48)\n[/ANSWER]"}
+{"id": "id-00020", "predicted_answer": 7.0, "gold_answer": 7, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(cryptographic_key == 7)\n[/ANSWER]"}
+{"id": "id-00021", "predicted_answer": 10.0, "gold_answer": 10, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_efficiency == 10)\n[/ANSWER]"}
+{"id": "id-00022", "predicted_answer": 49.0, "gold_answer": 49, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 49)\n[/ANSWER]"}
+{"id": "id-00023", "predicted_answer": 278.0, "gold_answer": 278, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_item_count == 278)\n[/ANSWER]"}
+{"id": "id-00024", "predicted_answer": null, "gold_answer": 94, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00026", "predicted_answer": 61804.0, "gold_answer": 61804, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 61804)\n[/ANSWER]"}
+{"id": "id-00027", "predicted_answer": null, "gold_answer": 20964425708034571475, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00028", "predicted_answer": 612.0, "gold_answer": 612, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(stellar_checksum == 612)\n[/ANSWER]"}
+{"id": "id-00029", "predicted_answer": 12.0, "gold_answer": 12, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_accumulator == 12)\n[/ANSWER]"}
+{"id": "id-00030", "predicted_answer": 1700.0, "gold_answer": 1700, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(transformed_area == 1700)\n[/ANSWER]"}
+{"id": "id-00031", "predicted_answer": null, "gold_answer": 6511, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00032", "predicted_answer": 5.0, "gold_answer": 5, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(delimiter_count == 5)\n[/ANSWER]"}
+{"id": "id-00033", "predicted_answer": null, "gold_answer": 0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00034", "predicted_answer": null, "gold_answer": 18994, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00035", "predicted_answer": null, "gold_answer": 12, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00036", "predicted_answer": 128.77, "gold_answer": 128.77, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_batch_cost == 128.77)\n[/ANSWER]"}
+{"id": "id-00038", "predicted_answer": 0.0, "gold_answer": 0, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_clearance == 0)\n[/ANSWER]"}
+{"id": "id-00039", "predicted_answer": null, "gold_answer": 402.14, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00040", "predicted_answer": 330.0, "gold_answer": 330, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_category_score == 330)\n[/ANSWER]"}
+{"id": "id-00041", "predicted_answer": 727.0, "gold_answer": 727, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_signal_strength == 727)\n[/ANSWER]"}
+{"id": "id-00042", "predicted_answer": 0.0, "gold_answer": 0, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(peak_count == 0)\n[/ANSWER]"}
+{"id": "id-00043", "predicted_answer": null, "gold_answer": 0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00044", "predicted_answer": null, "gold_answer": 124, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00045", "predicted_answer": 0.0, "gold_answer": 0, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(security_key == 0)\n[/ANSWER]"}
+{"id": "id-00046", "predicted_answer": 15.0, "gold_answer": 15, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_checksum == 15)\n[/ANSWER]"}
+{"id": "id-00047", "predicted_answer": 6.0, "gold_answer": 6, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(marker_code == 6)\n[/ANSWER]"}
+{"id": "id-00048", "predicted_answer": 120.0, "gold_answer": 120, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_signal == 120)\n[/ANSWER]"}
+{"id": "id-00049", "predicted_answer": 1311.0, "gold_answer": 1311, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 1311)\n[/ANSWER]"}
+{"id": "id-00050", "predicted_answer": -2.0, "gold_answer": -2, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_discrepancy == -2)\n[/ANSWER]"}
+{"id": "id-00053", "predicted_answer": 87.0, "gold_answer": 87, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(fibonacci_sum == 87)\n[/ANSWER]"}
+{"id": "id-00054", "predicted_answer": 588.0, "gold_answer": 588, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_signal_energy == 588)\n[/ANSWER]"}
+{"id": "id-00055", "predicted_answer": 42.5, "gold_answer": 42.5, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_risk_score == 42.5)\n[/ANSWER]"}
+{"id": "id-00057", "predicted_answer": 0.0, "gold_answer": 0, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_average == 0)\n[/ANSWER]"}
+{"id": "id-00058", "predicted_answer": 6.0, "gold_answer": 6, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_efficiency_score == 6)\n[/ANSWER]"}
+{"id": "id-00059", "predicted_answer": 92.0, "gold_answer": 92, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(auth_signature == 92)\n[/ANSWER]"}
+{"id": "id-00060", "predicted_answer": null, "gold_answer": 12, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00062", "predicted_answer": null, "gold_answer": -258.29, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00063", "predicted_answer": 19.5, "gold_answer": 19.5, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(filtered_signal_strength == 19.5)\n[/ANSWER]"}
+{"id": "id-00065", "predicted_answer": null, "gold_answer": 249, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00067", "predicted_answer": 132.0, "gold_answer": 132, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 132)\n[/ANSWER]"}
+{"id": "id-00070", "predicted_answer": null, "gold_answer": 6.2, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00071", "predicted_answer": null, "gold_answer": 42, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00073", "predicted_answer": null, "gold_answer": 51.24, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00074", "predicted_answer": null, "gold_answer": 17, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00075", "predicted_answer": null, "gold_answer": 1998, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00077", "predicted_answer": null, "gold_answer": 43, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00078", "predicted_answer": null, "gold_answer": 879, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00079", "predicted_answer": null, "gold_answer": 0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00080", "predicted_answer": null, "gold_answer": 1, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00081", "predicted_answer": null, "gold_answer": 98, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00082", "predicted_answer": null, "gold_answer": 0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00083", "predicted_answer": null, "gold_answer": 527, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00085", "predicted_answer": null, "gold_answer": 4061, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00086", "predicted_answer": null, "gold_answer": 39, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00087", "predicted_answer": null, "gold_answer": 22, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00090", "predicted_answer": null, "gold_answer": 17.6, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00091", "predicted_answer": null, "gold_answer": 4, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00092", "predicted_answer": null, "gold_answer": 11660, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00093", "predicted_answer": null, "gold_answer": 1086, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00094", "predicted_answer": null, "gold_answer": 1, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00096", "predicted_answer": null, "gold_answer": 13, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00097", "predicted_answer": null, "gold_answer": 10, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00098", "predicted_answer": null, "gold_answer": 10, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00099", "predicted_answer": null, "gold_answer": 3, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00100", "predicted_answer": null, "gold_answer": 20, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00103", "predicted_answer": null, "gold_answer": 819, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00105", "predicted_answer": null, "gold_answer": 26, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00106", "predicted_answer": null, "gold_answer": 20, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00107", "predicted_answer": null, "gold_answer": 15.0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00109", "predicted_answer": null, "gold_answer": 74.0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00110", "predicted_answer": null, "gold_answer": 47, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00112", "predicted_answer": null, "gold_answer": 36, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00113", "predicted_answer": null, "gold_answer": 0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00114", "predicted_answer": null, "gold_answer": 4, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00116", "predicted_answer": null, "gold_answer": 83, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00117", "predicted_answer": null, "gold_answer": 256, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00120", "predicted_answer": null, "gold_answer": 0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00122", "predicted_answer": null, "gold_answer": 3, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00123", "predicted_answer": null, "gold_answer": 7.38, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00124", "predicted_answer": null, "gold_answer": 2, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00125", "predicted_answer": null, "gold_answer": 0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00126", "predicted_answer": null, "gold_answer": 29, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00127", "predicted_answer": null, "gold_answer": 662, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00128", "predicted_answer": null, "gold_answer": -3042, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00129", "predicted_answer": null, "gold_answer": 176, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00130", "predicted_answer": null, "gold_answer": 120, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00131", "predicted_answer": null, "gold_answer": 3, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00132", "predicted_answer": null, "gold_answer": 48, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00134", "predicted_answer": null, "gold_answer": 15, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00135", "predicted_answer": null, "gold_answer": 76, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00136", "predicted_answer": null, "gold_answer": 114, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00137", "predicted_answer": null, "gold_answer": 22, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00138", "predicted_answer": null, "gold_answer": 16.5, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00139", "predicted_answer": null, "gold_answer": 43, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00140", "predicted_answer": null, "gold_answer": 30, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00141", "predicted_answer": null, "gold_answer": 20, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00142", "predicted_answer": null, "gold_answer": 6, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00143", "predicted_answer": null, "gold_answer": 40, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00144", "predicted_answer": null, "gold_answer": 434, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00145", "predicted_answer": null, "gold_answer": 2438, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00146", "predicted_answer": null, "gold_answer": 8600, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00147", "predicted_answer": null, "gold_answer": 36.93, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00148", "predicted_answer": null, "gold_answer": 10, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00149", "predicted_answer": null, "gold_answer": 291.48, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00151", "predicted_answer": null, "gold_answer": 4, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00154", "predicted_answer": null, "gold_answer": 188, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00155", "predicted_answer": null, "gold_answer": 1, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00157", "predicted_answer": null, "gold_answer": -1, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00158", "predicted_answer": null, "gold_answer": 164, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00159", "predicted_answer": null, "gold_answer": 149, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00160", "predicted_answer": null, "gold_answer": 36, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00161", "predicted_answer": null, "gold_answer": 26, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00162", "predicted_answer": null, "gold_answer": 34, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00163", "predicted_answer": null, "gold_answer": 3313712658, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00164", "predicted_answer": null, "gold_answer": 46, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00167", "predicted_answer": null, "gold_answer": 3.42, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00168", "predicted_answer": null, "gold_answer": 17.0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00170", "predicted_answer": null, "gold_answer": 5887, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00171", "predicted_answer": null, "gold_answer": 10234, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00173", "predicted_answer": null, "gold_answer": 3315, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00174", "predicted_answer": null, "gold_answer": 16, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00175", "predicted_answer": null, "gold_answer": 714960, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00176", "predicted_answer": null, "gold_answer": 50, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00177", "predicted_answer": null, "gold_answer": 720, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00178", "predicted_answer": null, "gold_answer": 3, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00179", "predicted_answer": null, "gold_answer": 1358, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00180", "predicted_answer": null, "gold_answer": 143, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00181", "predicted_answer": null, "gold_answer": 8, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00182", "predicted_answer": null, "gold_answer": 182, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00183", "predicted_answer": null, "gold_answer": 15361, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00184", "predicted_answer": null, "gold_answer": 183, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00186", "predicted_answer": null, "gold_answer": 24.0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00187", "predicted_answer": null, "gold_answer": 7147140, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00188", "predicted_answer": null, "gold_answer": 9, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00189", "predicted_answer": null, "gold_answer": 13, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00190", "predicted_answer": null, "gold_answer": 0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00191", "predicted_answer": null, "gold_answer": 12, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00192", "predicted_answer": null, "gold_answer": 233391, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00193", "predicted_answer": null, "gold_answer": 32, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00194", "predicted_answer": null, "gold_answer": 2, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00195", "predicted_answer": null, "gold_answer": 5, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00196", "predicted_answer": null, "gold_answer": 0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00197", "predicted_answer": null, "gold_answer": 20.68, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00198", "predicted_answer": null, "gold_answer": 52, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00200", "predicted_answer": null, "gold_answer": 0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00201", "predicted_answer": null, "gold_answer": 0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00202", "predicted_answer": null, "gold_answer": -2, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00203", "predicted_answer": null, "gold_answer": 201, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00204", "predicted_answer": null, "gold_answer": 1, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00205", "predicted_answer": null, "gold_answer": 7759, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00206", "predicted_answer": null, "gold_answer": 3745, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00207", "predicted_answer": null, "gold_answer": 25, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00208", "predicted_answer": null, "gold_answer": 92, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00209", "predicted_answer": null, "gold_answer": 3, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00210", "predicted_answer": null, "gold_answer": 67, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00212", "predicted_answer": null, "gold_answer": 1474, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00213", "predicted_answer": null, "gold_answer": -41, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00214", "predicted_answer": null, "gold_answer": 0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00216", "predicted_answer": null, "gold_answer": 27, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00217", "predicted_answer": null, "gold_answer": 2.0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00218", "predicted_answer": null, "gold_answer": 29, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00220", "predicted_answer": null, "gold_answer": 13, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00221", "predicted_answer": null, "gold_answer": 96, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00224", "predicted_answer": null, "gold_answer": 16.5, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00225", "predicted_answer": null, "gold_answer": 112.0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00226", "predicted_answer": null, "gold_answer": 77.0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00227", "predicted_answer": null, "gold_answer": 279, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00228", "predicted_answer": null, "gold_answer": 9, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00229", "predicted_answer": 5.0, "gold_answer": 5, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 5)\n[/ANSWER]"}
+{"id": "id-00230", "predicted_answer": 40.0, "gold_answer": 40, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(phase_shift == 40)\n[/ANSWER]"}
+{"id": "id-00231", "predicted_answer": 8.0, "gold_answer": 8, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 8)\n[/ANSWER]"}
+{"id": "id-00232", "predicted_answer": 355.0, "gold_answer": 355, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 355)\n[/ANSWER]"}
+{"id": "id-00233", "predicted_answer": 200.0, "gold_answer": 200, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 200)\n[/ANSWER]"}
+{"id": "id-00235", "predicted_answer": 30.0, "gold_answer": 30, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 30)\n[/ANSWER]"}
+{"id": "id-00236", "predicted_answer": 187.0, "gold_answer": 187, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_yield == 187)\n[/ANSWER]"}
+{"id": "id-00237", "predicted_answer": 1049.0, "gold_answer": 1049, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_yield == 1049)\n[/ANSWER]"}
+{"id": "id-00238", "predicted_answer": 650.5, "gold_answer": 650.5, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 650.5)\n[/ANSWER]"}
+{"id": "id-00239", "predicted_answer": 3.2, "gold_answer": 3.2, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(filtration_score == 3.2)\n[/ANSWER]"}
+{"id": "id-00240", "predicted_answer": null, "gold_answer": 27, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00241", "predicted_answer": 40.0, "gold_answer": 40, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 40)\n[/ANSWER]"}
+{"id": "id-00242", "predicted_answer": 111.0, "gold_answer": 111, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 111)\n[/ANSWER]"}
+{"id": "id-00243", "predicted_answer": 34.0, "gold_answer": 35, "correct": false, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 34)\n[/ANSWER]"}
+{"id": "id-00244", "predicted_answer": 50.0, "gold_answer": 50, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 50)\n[/ANSWER]"}
+{"id": "id-00245", "predicted_answer": 26.0, "gold_answer": 26, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_checksum == 26)\n[/ANSWER]"}
+{"id": "id-00246", "predicted_answer": 37.0, "gold_answer": 37, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 37)\n[/ANSWER]"}
+{"id": "id-00247", "predicted_answer": 46.0, "gold_answer": 46, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 46)\n[/ANSWER]"}
+{"id": "id-00248", "predicted_answer": 31.0, "gold_answer": 31, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 31)\n[/ANSWER]"}
+{"id": "id-00249", "predicted_answer": 413.0, "gold_answer": 413, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 413)\n[/ANSWER]"}
+{"id": "id-00250", "predicted_answer": 34.0, "gold_answer": 34, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 34)\n[/ANSWER]"}
+{"id": "id-00251", "predicted_answer": 12.0, "gold_answer": 12, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_yield == 12)\n[/ANSWER]"}
+{"id": "id-00253", "predicted_answer": 189.0, "gold_answer": 189, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 189)\n[/ANSWER]"}
+{"id": "id-00254", "predicted_answer": -28.0, "gold_answer": -28, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == -28)\n[/ANSWER]"}
+{"id": "id-00255", "predicted_answer": 41.0, "gold_answer": 41, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 41)\n[/ANSWER]"}
+{"id": "id-00256", "predicted_answer": null, "gold_answer": 689, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00257", "predicted_answer": 1484.0, "gold_answer": 231, "correct": false, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 1484)\n[/ANSWER]"}
+{"id": "id-00258", "predicted_answer": null, "gold_answer": 48, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00259", "predicted_answer": 68.0, "gold_answer": 68, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 68)\n[/ANSWER]"}
+{"id": "id-00260", "predicted_answer": 1270.0, "gold_answer": 1270, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_checksum == 1270)\n[/ANSWER]"}
+{"id": "id-00261", "predicted_answer": 9876.0, "gold_answer": 9876, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_capacity == 9876)\n[/ANSWER]"}
+{"id": "id-00262", "predicted_answer": 104.0, "gold_answer": 104, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 104)\n[/ANSWER]"}
+{"id": "id-00263", "predicted_answer": null, "gold_answer": 141, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00264", "predicted_answer": 50.0, "gold_answer": 50, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 50)\n[/ANSWER]"}
+{"id": "id-00265", "predicted_answer": 80.0, "gold_answer": 80, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 80)\n[/ANSWER]"}
+{"id": "id-00266", "predicted_answer": 50.0, "gold_answer": 50, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 50)\n[/ANSWER]"}
+{"id": "id-00267", "predicted_answer": 63.0, "gold_answer": 63, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 63)\n[/ANSWER]"}
+{"id": "id-00268", "predicted_answer": 109.0, "gold_answer": 109, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 109)\n[/ANSWER]"}
+{"id": "id-00269", "predicted_answer": 30.0, "gold_answer": 30, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 30)\n[/ANSWER]"}
+{"id": "id-00270", "predicted_answer": null, "gold_answer": 209.0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00272", "predicted_answer": 15.0, "gold_answer": 15, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 15)\n[/ANSWER]"}
+{"id": "id-00273", "predicted_answer": 33.0, "gold_answer": 33, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 33)\n[/ANSWER]"}
+{"id": "id-00274", "predicted_answer": 373.0, "gold_answer": 373, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 373)\n[/ANSWER]"}
+{"id": "id-00275", "predicted_answer": 299.0, "gold_answer": 299, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 299)\n[/ANSWER]"}
+{"id": "id-00276", "predicted_answer": 27.0, "gold_answer": 27, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 27)\n[/ANSWER]"}
+{"id": "id-00277", "predicted_answer": 45.0, "gold_answer": 45, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 45)\n[/ANSWER]"}
+{"id": "id-00278", "predicted_answer": 11.0, "gold_answer": 11, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 11)\n[/ANSWER]"}
+{"id": "id-00279", "predicted_answer": null, "gold_answer": 339, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00280", "predicted_answer": 67.0, "gold_answer": 67, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 67)\n[/ANSWER]"}
+{"id": "id-00281", "predicted_answer": 256.0, "gold_answer": 256, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 256)\n[/ANSWER]"}
+{"id": "id-00282", "predicted_answer": -3.3, "gold_answer": -3.3, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == -3.3)\n[/ANSWER]"}
+{"id": "id-00283", "predicted_answer": 75.0, "gold_answer": 75, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 75)\n[/ANSWER]"}
+{"id": "id-00284", "predicted_answer": null, "gold_answer": 29, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00285", "predicted_answer": 62.0, "gold_answer": 62, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 62)\n[/ANSWER]"}
+{"id": "id-00286", "predicted_answer": 85.0, "gold_answer": 85, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 85)\n[/ANSWER]"}
+{"id": "id-00287", "predicted_answer": null, "gold_answer": 5, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00288", "predicted_answer": 70.0, "gold_answer": 70, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 70)\n[/ANSWER]"}
+{"id": "id-00289", "predicted_answer": null, "gold_answer": 17, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00290", "predicted_answer": 44.0, "gold_answer": 44, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(thermal_capacity == 44)\n[/ANSWER]"}
+{"id": "id-00291", "predicted_answer": 37.0, "gold_answer": 37, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 37)\n[/ANSWER]"}
+{"id": "id-00292", "predicted_answer": -12.0, "gold_answer": -12, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == -12)\n[/ANSWER]"}
+{"id": "id-00293", "predicted_answer": 173.0, "gold_answer": 173, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_yield == 173)\n[/ANSWER]"}
+{"id": "id-00294", "predicted_answer": 106.0, "gold_answer": 106, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 106)\n[/ANSWER]"}
+{"id": "id-00295", "predicted_answer": 84.0, "gold_answer": 84, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 84)\n[/ANSWER]"}
+{"id": "id-00296", "predicted_answer": null, "gold_answer": 264, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00297", "predicted_answer": 20.0, "gold_answer": 20, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 20)\n[/ANSWER]"}
+{"id": "id-00298", "predicted_answer": null, "gold_answer": 5.0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00299", "predicted_answer": 72.0, "gold_answer": 72, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 72)\n[/ANSWER]"}
+{"id": "id-00300", "predicted_answer": 331.0, "gold_answer": 331, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 331)\n[/ANSWER]"}
+{"id": "id-00301", "predicted_answer": 131.0, "gold_answer": 131, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 131)\n[/ANSWER]"}
+{"id": "id-00302", "predicted_answer": 66.0, "gold_answer": 66, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 66)\n[/ANSWER]"}
+{"id": "id-00303", "predicted_answer": 813.0, "gold_answer": 813, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 813)\n[/ANSWER]"}
+{"id": "id-00304", "predicted_answer": 7.0, "gold_answer": 7, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 7)\n[/ANSWER]"}
+{"id": "id-00305", "predicted_answer": 36.0, "gold_answer": 36, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 36)\n[/ANSWER]"}
+{"id": "id-00306", "predicted_answer": null, "gold_answer": 9, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00307", "predicted_answer": 25.0, "gold_answer": 25, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 25)\n[/ANSWER]"}
+{"id": "id-00308", "predicted_answer": 1.0, "gold_answer": 1, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 1)\n[/ANSWER]"}
+{"id": "id-00309", "predicted_answer": null, "gold_answer": 339, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00310", "predicted_answer": 488.0, "gold_answer": 488, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_signal == 488)\n[/ANSWER]"}
+{"id": "id-00311", "predicted_answer": -1.0, "gold_answer": -1, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == -1)\n[/ANSWER]"}
+{"id": "id-00312", "predicted_answer": 80.0, "gold_answer": 80, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 80)\n[/ANSWER]"}
+{"id": "id-00313", "predicted_answer": 698.0, "gold_answer": 698, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 698)\n[/ANSWER]"}
+{"id": "id-00314", "predicted_answer": 18.0, "gold_answer": 18, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 18)\n[/ANSWER]"}
+{"id": "id-00315", "predicted_answer": 41.0, "gold_answer": 41, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 41)\n[/ANSWER]"}
+{"id": "id-00316", "predicted_answer": 447.0, "gold_answer": 447, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_yield == 447)\n[/ANSWER]"}
+{"id": "id-00317", "predicted_answer": 18.0, "gold_answer": 18, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 18)\n[/ANSWER]"}
+{"id": "id-00318", "predicted_answer": 13.0, "gold_answer": 47, "correct": false, "error": null, "raw_output": "[ANSWER]\nassert(final_signal == 13)\n[/ANSWER]"}
+{"id": "id-00319", "predicted_answer": 24.0, "gold_answer": 24, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 24)\n[/ANSWER]"}
+{"id": "id-00320", "predicted_answer": 525.0, "gold_answer": 525, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 525)\n[/ANSWER]"}
+{"id": "id-00321", "predicted_answer": 25.0, "gold_answer": 25, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 25)\n[/ANSWER]"}
+{"id": "id-00322", "predicted_answer": 398.0, "gold_answer": 398, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 398)\n[/ANSWER]"}
+{"id": "id-00323", "predicted_answer": 212.0, "gold_answer": 212, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(thermal_capacity == 212)\n[/ANSWER]"}
+{"id": "id-00324", "predicted_answer": 798.0, "gold_answer": 798, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 798)\n[/ANSWER]"}
+{"id": "id-00325", "predicted_answer": null, "gold_answer": 7779, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00326", "predicted_answer": 65.0, "gold_answer": 65, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(thermal_capacity == 65)\n[/ANSWER]"}
+{"id": "id-00327", "predicted_answer": 100.0, "gold_answer": 100, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 100)\n[/ANSWER]"}
+{"id": "id-00328", "predicted_answer": 91.0, "gold_answer": 91, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(thermal_capacity == 91)\n[/ANSWER]"}
+{"id": "id-00329", "predicted_answer": 66.0, "gold_answer": 66, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 66)\n[/ANSWER]"}
+{"id": "id-00330", "predicted_answer": 127.0, "gold_answer": 127, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 127)\n[/ANSWER]"}
+{"id": "id-00331", "predicted_answer": 0.0, "gold_answer": 0, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 0)\n[/ANSWER]"}
+{"id": "id-00332", "predicted_answer": 12.0, "gold_answer": 12, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_signal == 12)\n[/ANSWER]"}
+{"id": "id-00333", "predicted_answer": 50.0, "gold_answer": 50, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 50)\n[/ANSWER]"}
+{"id": "id-00334", "predicted_answer": 8.0, "gold_answer": 8, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 8)\n[/ANSWER]"}
+{"id": "id-00335", "predicted_answer": 78.0, "gold_answer": 78, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_yield == 78)\n[/ANSWER]"}
+{"id": "id-00337", "predicted_answer": 28.0, "gold_answer": 28, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 28)\n[/ANSWER]"}
+{"id": "id-00338", "predicted_answer": null, "gold_answer": 124, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00339", "predicted_answer": 253.0, "gold_answer": 253, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 253)\n[/ANSWER]"}
+{"id": "id-00340", "predicted_answer": 60.0, "gold_answer": 60, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 60)\n[/ANSWER]"}
+{"id": "id-00342", "predicted_answer": 47.0, "gold_answer": 47, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 47)\n[/ANSWER]"}
+{"id": "id-00343", "predicted_answer": 24.0, "gold_answer": 24, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_yield == 24)\n[/ANSWER]"}
+{"id": "id-00344", "predicted_answer": 15.0, "gold_answer": 15, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 15)\n[/ANSWER]"}
+{"id": "id-00345", "predicted_answer": 68.0, "gold_answer": 68, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 68)\n[/ANSWER]"}
+{"id": "id-00346", "predicted_answer": 32.0, "gold_answer": 32, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 32)\n[/ANSWER]"}
+{"id": "id-00347", "predicted_answer": 26.0, "gold_answer": 26, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 26)\n[/ANSWER]"}
+{"id": "id-00348", "predicted_answer": 14.0, "gold_answer": 14, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 14)\n[/ANSWER]"}
+{"id": "id-00349", "predicted_answer": 37.0, "gold_answer": 37, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 37)\n[/ANSWER]"}
+{"id": "id-00350", "predicted_answer": null, "gold_answer": 1630, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00351", "predicted_answer": 87.0, "gold_answer": 87, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 87)\n[/ANSWER]"}
+{"id": "id-00352", "predicted_answer": 15.0, "gold_answer": 15, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 15)\n[/ANSWER]"}
+{"id": "id-00353", "predicted_answer": 67.0, "gold_answer": 67, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 67)\n[/ANSWER]"}
+{"id": "id-00354", "predicted_answer": 38.0, "gold_answer": 38, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 38)\n[/ANSWER]"}
+{"id": "id-00357", "predicted_answer": 12.0, "gold_answer": 12, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 12)\n[/ANSWER]"}
+{"id": "id-00358", "predicted_answer": 42.0, "gold_answer": 42, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 42)\n[/ANSWER]"}
+{"id": "id-00359", "predicted_answer": 391.0, "gold_answer": 391, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 391)\n[/ANSWER]"}
+{"id": "id-00361", "predicted_answer": 7.0, "gold_answer": 7, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 7)\n[/ANSWER]"}
+{"id": "id-00362", "predicted_answer": 22.0, "gold_answer": 22, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_capacity == 22)\n[/ANSWER]"}
+{"id": "id-00363", "predicted_answer": 46.0, "gold_answer": 46, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 46)\n[/ANSWER]"}
+{"id": "id-00364", "predicted_answer": 91.0, "gold_answer": 91, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 91)\n[/ANSWER]"}
+{"id": "id-00365", "predicted_answer": 15.0, "gold_answer": 15, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 15)\n[/ANSWER]"}
+{"id": "id-00366", "predicted_answer": null, "gold_answer": 278.82, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00367", "predicted_answer": 443.0, "gold_answer": 443, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_yield == 443)\n[/ANSWER]"}
+{"id": "id-00368", "predicted_answer": 2782.0, "gold_answer": 2782, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 2782)\n[/ANSWER]"}
+{"id": "id-00369", "predicted_answer": 557.0, "gold_answer": 557, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(checksum == 557)\n[/ANSWER]"}
+{"id": "id-00370", "predicted_answer": 93.5, "gold_answer": 93.5, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 93.5)\n[/ANSWER]"}
+{"id": "id-00371", "predicted_answer": 30.0, "gold_answer": 30, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 30)\n[/ANSWER]"}
+{"id": "id-00372", "predicted_answer": 91.0, "gold_answer": 91, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 91)\n[/ANSWER]"}
+{"id": "id-00373", "predicted_answer": 78.0, "gold_answer": 78, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 78)\n[/ANSWER]"}
+{"id": "id-00374", "predicted_answer": null, "gold_answer": 2701, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00375", "predicted_answer": null, "gold_answer": 56, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00376", "predicted_answer": 17.0, "gold_answer": 17, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 17)\n[/ANSWER]"}
+{"id": "id-00377", "predicted_answer": 580.0, "gold_answer": 580, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 580)\n[/ANSWER]"}
+{"id": "id-00378", "predicted_answer": 19.0, "gold_answer": 19, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 19)\n[/ANSWER]"}
+{"id": "id-00379", "predicted_answer": 118.5, "gold_answer": 118.5, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(energy_threshold == 118.5)\n[/ANSWER]"}
+{"id": "id-00383", "predicted_answer": 106.0, "gold_answer": 106, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(filtration_score == 106)\n[/ANSWER]"}
+{"id": "id-00384", "predicted_answer": 92.5, "gold_answer": 92.5, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 92.5)\n[/ANSWER]"}
+{"id": "id-00385", "predicted_answer": 362.3, "gold_answer": 362.3, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 362.3)\n[/ANSWER]"}
+{"id": "id-00386", "predicted_answer": 14.5, "gold_answer": 14.5, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(total_distance == 14.5)\n[/ANSWER]"}
+{"id": "id-00387", "predicted_answer": 5.48, "gold_answer": 5.48, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_phase == 5.48)\n[/ANSWER]"}
+{"id": "id-00388", "predicted_answer": null, "gold_answer": 3239.6, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00389", "predicted_answer": null, "gold_answer": 100, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00390", "predicted_answer": null, "gold_answer": 472, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00391", "predicted_answer": 25.0, "gold_answer": 25, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 25)\n[/ANSWER]"}
+{"id": "id-00392", "predicted_answer": 45.0, "gold_answer": 45, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 45)\n[/ANSWER]"}
+{"id": "id-00393", "predicted_answer": 30.0, "gold_answer": 30, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(equilibrium_score == 30)\n[/ANSWER]"}
+{"id": "id-00394", "predicted_answer": 184.0, "gold_answer": 184.0, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 184)\n[/ANSWER]"}
+{"id": "id-00395", "predicted_answer": null, "gold_answer": 284, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00396", "predicted_answer": 56.0, "gold_answer": 56, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 56)\n[/ANSWER]"}
+{"id": "id-00397", "predicted_answer": 79.0, "gold_answer": 79, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(filtered_checksum == 79)\n[/ANSWER]"}
+{"id": "id-00398", "predicted_answer": 40.0, "gold_answer": 40, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(threshold_score == 40)\n[/ANSWER]"}
+{"id": "id-00399", "predicted_answer": 48.0, "gold_answer": 48, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 48)\n[/ANSWER]"}
+{"id": "id-00400", "predicted_answer": 46.0, "gold_answer": 46, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 46)\n[/ANSWER]"}
+{"id": "id-00401", "predicted_answer": null, "gold_answer": 434448, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00402", "predicted_answer": 132.0, "gold_answer": 132, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 132)\n[/ANSWER]"}
+{"id": "id-00403", "predicted_answer": 1857.0, "gold_answer": 1857, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_load == 1857)\n[/ANSWER]"}
+{"id": "id-00404", "predicted_answer": -34.0, "gold_answer": -36, "correct": false, "error": null, "raw_output": "[ANSWER]\nassert(final_tally == -34)\n[/ANSWER]"}
+{"id": "id-00405", "predicted_answer": 11.0, "gold_answer": 11, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_flux == 11)\n[/ANSWER]"}
+{"id": "id-00406", "predicted_answer": null, "gold_answer": 0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00407", "predicted_answer": null, "gold_answer": -69, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00408", "predicted_answer": 32.0, "gold_answer": 32, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(filtered_sum == 32)\n[/ANSWER]"}
+{"id": "id-00409", "predicted_answer": 5.0, "gold_answer": 5, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 5)\n[/ANSWER]"}
+{"id": "id-00410", "predicted_answer": 6930.0, "gold_answer": 6930, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 6930)\n[/ANSWER]"}
+{"id": "id-00411", "predicted_answer": null, "gold_answer": 5448480, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00412", "predicted_answer": 615.0, "gold_answer": 615, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 615)\n[/ANSWER]"}
+{"id": "id-00413", "predicted_answer": null, "gold_answer": 95, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00414", "predicted_answer": null, "gold_answer": 17809, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00415", "predicted_answer": 15.0, "gold_answer": 15, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(filtration_score == 15)\n[/ANSWER]"}
+{"id": "id-00416", "predicted_answer": null, "gold_answer": 124, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00417", "predicted_answer": null, "gold_answer": 62.21, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00418", "predicted_answer": 156.0, "gold_answer": 156, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(phase_output == 156)\n[/ANSWER]"}
+{"id": "id-00419", "predicted_answer": 0.0, "gold_answer": 0, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 0)\n[/ANSWER]"}
+{"id": "id-00420", "predicted_answer": null, "gold_answer": 1741, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00421", "predicted_answer": 38.4, "gold_answer": 38.4, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 38.4)\n[/ANSWER]"}
+{"id": "id-00422", "predicted_answer": null, "gold_answer": 12, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00423", "predicted_answer": 62.0, "gold_answer": 62, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 62)\n[/ANSWER]"}
+{"id": "id-00424", "predicted_answer": 173.0, "gold_answer": 173, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 173)\n[/ANSWER]"}
+{"id": "id-00425", "predicted_answer": 145.0, "gold_answer": 145, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 145)\n[/ANSWER]"}
+{"id": "id-00426", "predicted_answer": null, "gold_answer": 9.42, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00427", "predicted_answer": 0.0, "gold_answer": 0, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 0)\n[/ANSWER]"}
+{"id": "id-00428", "predicted_answer": 1935014.0, "gold_answer": 1935014, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 1935014)\n[/ANSWER]"}
+{"id": "id-00429", "predicted_answer": 25.0, "gold_answer": 25, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 25)\n[/ANSWER]"}
+{"id": "id-00430", "predicted_answer": 5943.0, "gold_answer": 5943, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_load == 5943)\n[/ANSWER]"}
+{"id": "id-00431", "predicted_answer": -15.0, "gold_answer": -15, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == -15)\n[/ANSWER]"}
+{"id": "id-00432", "predicted_answer": 96.0, "gold_answer": 96, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 96)\n[/ANSWER]"}
+{"id": "id-00434", "predicted_answer": 2.7, "gold_answer": 2.7, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 2.7)\n[/ANSWER]"}
+{"id": "id-00435", "predicted_answer": 0.0, "gold_answer": 0, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(net_phase_shift == 0)\n[/ANSWER]"}
+{"id": "id-00436", "predicted_answer": 379.0, "gold_answer": 379, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_load == 379)\n[/ANSWER]"}
+{"id": "id-00437", "predicted_answer": null, "gold_answer": 98.85, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00438", "predicted_answer": 54.0, "gold_answer": 54, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 54)\n[/ANSWER]"}
+{"id": "id-00439", "predicted_answer": 218.0, "gold_answer": 218, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 218)\n[/ANSWER]"}
+{"id": "id-00440", "predicted_answer": 250.0, "gold_answer": 250, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 250)\n[/ANSWER]"}
+{"id": "id-00441", "predicted_answer": 780.0, "gold_answer": 780, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 780)\n[/ANSWER]"}
+{"id": "id-00442", "predicted_answer": 87.7, "gold_answer": 87.7, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 87.7)\n[/ANSWER]"}
+{"id": "id-00443", "predicted_answer": 21.0, "gold_answer": 21, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 21)\n[/ANSWER]"}
+{"id": "id-00444", "predicted_answer": 791.0, "gold_answer": 791.0, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 791.0)\n[/ANSWER]"}
+{"id": "id-00445", "predicted_answer": 500.0, "gold_answer": 500, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 500)\n[/ANSWER]"}
+{"id": "id-00446", "predicted_answer": 74.0, "gold_answer": 74, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 74)\n[/ANSWER]"}
+{"id": "id-00447", "predicted_answer": null, "gold_answer": 25, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00448", "predicted_answer": 950.0, "gold_answer": 950, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(thermal_capacity == 950)\n[/ANSWER]"}
+{"id": "id-00449", "predicted_answer": 41.0, "gold_answer": 41, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 41)\n[/ANSWER]"}
+{"id": "id-00451", "predicted_answer": -1.0, "gold_answer": -1, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == -1)\n[/ANSWER]"}
+{"id": "id-00453", "predicted_answer": 4.0, "gold_answer": 4, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 4)\n[/ANSWER]"}
+{"id": "id-00454", "predicted_answer": 1.0, "gold_answer": 1, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(threshold_alert == 1)\n[/ANSWER]"}
+{"id": "id-00455", "predicted_answer": 2.0, "gold_answer": 2, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(threshold_score == 2)\n[/ANSWER]"}
+{"id": "id-00457", "predicted_answer": 96.0, "gold_answer": 96, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(threshold_score == 96)\n[/ANSWER]"}
+{"id": "id-00458", "predicted_answer": 1.0, "gold_answer": 1, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result_set_size == 1)\n[/ANSWER]"}
+{"id": "id-00459", "predicted_answer": 88.94, "gold_answer": 88.94, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(balance_adjustment == 88.94)\n[/ANSWER]"}
+{"id": "id-00461", "predicted_answer": 100.6, "gold_answer": 100.6, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(pressure_index == 100.6)\n[/ANSWER]"}
+{"id": "id-00462", "predicted_answer": 24.0, "gold_answer": 24, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 24)\n[/ANSWER]"}
+{"id": "id-00463", "predicted_answer": 38.0, "gold_answer": 38, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(filtration_score == 38)\n[/ANSWER]"}
+{"id": "id-00464", "predicted_answer": 113.0, "gold_answer": 113, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(peak_capacity == 113)\n[/ANSWER]"}
+{"id": "id-00465", "predicted_answer": 3.0, "gold_answer": 3, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(efficiency_score == 3)\n[/ANSWER]"}
+{"id": "id-00466", "predicted_answer": null, "gold_answer": 58670, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00467", "predicted_answer": 78.0, "gold_answer": 78.0, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(efficiency_score == 78.0)\n[/ANSWER]"}
+{"id": "id-00468", "predicted_answer": 352.0, "gold_answer": 352, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 352)\n[/ANSWER]"}
+{"id": "id-00469", "predicted_answer": 484.0, "gold_answer": 484, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(peak_capacity == 484)\n[/ANSWER]"}
+{"id": "id-00470", "predicted_answer": -294.0, "gold_answer": -294, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == -294)\n[/ANSWER]"}
+{"id": "id-00471", "predicted_answer": null, "gold_answer": 965, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00472", "predicted_answer": 171.0, "gold_answer": 171, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 171)\n[/ANSWER]"}
+{"id": "id-00473", "predicted_answer": null, "gold_answer": -1, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00474", "predicted_answer": 366.0, "gold_answer": 366, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 366)\n[/ANSWER]"}
+{"id": "id-00475", "predicted_answer": 99.0, "gold_answer": 99, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 99)\n[/ANSWER]"}
+{"id": "id-00477", "predicted_answer": 266.0, "gold_answer": 266, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 266)\n[/ANSWER]"}
+{"id": "id-00478", "predicted_answer": 45.0, "gold_answer": 45, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 45)\n[/ANSWER]"}
+{"id": "id-00479", "predicted_answer": 36.0, "gold_answer": 36, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 36)\n[/ANSWER]"}
+{"id": "id-00480", "predicted_answer": 234.0, "gold_answer": 234, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 234)\n[/ANSWER]"}
+{"id": "id-00481", "predicted_answer": 2.0, "gold_answer": 2, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 2)\n[/ANSWER]"}
+{"id": "id-00482", "predicted_answer": 138.0, "gold_answer": 132, "correct": false, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 138)\n[/ANSWER]"}
+{"id": "id-00483", "predicted_answer": 60.0, "gold_answer": 60, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 60)\n[/ANSWER]"}
+{"id": "id-00484", "predicted_answer": 392.0, "gold_answer": 392, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 392)\n[/ANSWER]"}
+{"id": "id-00485", "predicted_answer": null, "gold_answer": 165, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00486", "predicted_answer": 38.0, "gold_answer": 38, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 38)\n[/ANSWER]"}
+{"id": "id-00487", "predicted_answer": null, "gold_answer": -67, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00488", "predicted_answer": 11.0, "gold_answer": 11, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 11)\n[/ANSWER]"}
+{"id": "id-00489", "predicted_answer": null, "gold_answer": 82179197, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00490", "predicted_answer": 14.0, "gold_answer": 14, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 14)\n[/ANSWER]"}
+{"id": "id-00491", "predicted_answer": 112.0, "gold_answer": 112, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 112)\n[/ANSWER]"}
+{"id": "id-00492", "predicted_answer": null, "gold_answer": 116, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00493", "predicted_answer": null, "gold_answer": 24878.0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00494", "predicted_answer": null, "gold_answer": 816, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00495", "predicted_answer": 163.0, "gold_answer": 163, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 163)\n[/ANSWER]"}
+{"id": "id-00496", "predicted_answer": null, "gold_answer": 261, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00497", "predicted_answer": 58.66, "gold_answer": 58.66, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 58.66)\n[/ANSWER]"}
+{"id": "id-00498", "predicted_answer": 95.0, "gold_answer": 95, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 95)\n[/ANSWER]"}
+{"id": "id-00499", "predicted_answer": 34.0, "gold_answer": 34, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 34)\n[/ANSWER]"}
+{"id": "id-00500", "predicted_answer": -86.0, "gold_answer": -86, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == -86)\n[/ANSWER]"}
+{"id": "id-00501", "predicted_answer": 3.0, "gold_answer": 3, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 3)\n[/ANSWER]"}
+{"id": "id-00502", "predicted_answer": 18.0, "gold_answer": 18, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 18)\n[/ANSWER]"}
+{"id": "id-00503", "predicted_answer": 69.0, "gold_answer": 69, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 69)\n[/ANSWER]"}
+{"id": "id-00504", "predicted_answer": 84.4, "gold_answer": 84.4, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 84.4)\n[/ANSWER]"}
+{"id": "id-00505", "predicted_answer": null, "gold_answer": 79.6, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00506", "predicted_answer": 92.0, "gold_answer": 92, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 92)\n[/ANSWER]"}
+{"id": "id-00507", "predicted_answer": 101.0, "gold_answer": 101, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 101)\n[/ANSWER]"}
+{"id": "id-00508", "predicted_answer": null, "gold_answer": 6625, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00509", "predicted_answer": null, "gold_answer": -16.13, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00510", "predicted_answer": null, "gold_answer": 7, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00511", "predicted_answer": null, "gold_answer": 3.32, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00512", "predicted_answer": 1182.0, "gold_answer": 1182, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 1182)\n[/ANSWER]"}
+{"id": "id-00513", "predicted_answer": 80.0, "gold_answer": 80, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 80)\n[/ANSWER]"}
+{"id": "id-00514", "predicted_answer": 0.0, "gold_answer": 0, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 0)\n[/ANSWER]"}
+{"id": "id-00515", "predicted_answer": null, "gold_answer": 0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00516", "predicted_answer": 36.0, "gold_answer": 36, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 36)\n[/ANSWER]"}
+{"id": "id-00518", "predicted_answer": 45.0, "gold_answer": 45, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 45)\n[/ANSWER]"}
+{"id": "id-00519", "predicted_answer": 58.0, "gold_answer": 58, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 58)\n[/ANSWER]"}
+{"id": "id-00520", "predicted_answer": 23.0, "gold_answer": 23.0, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 23.0)\n[/ANSWER]"}
+{"id": "id-00521", "predicted_answer": null, "gold_answer": 145.05, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00522", "predicted_answer": 76.0, "gold_answer": 76, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(total_inertia == 76)\n[/ANSWER]"}
+{"id": "id-00523", "predicted_answer": 112.68, "gold_answer": 112.68, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 112.68)\n[/ANSWER]"}
+{"id": "id-00524", "predicted_answer": 93.0, "gold_answer": 93, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 93)\n[/ANSWER]"}
+{"id": "id-00525", "predicted_answer": 70.0, "gold_answer": 70, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 70)\n[/ANSWER]"}
+{"id": "id-00526", "predicted_answer": 21.0, "gold_answer": 21, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 21)\n[/ANSWER]"}
+{"id": "id-00529", "predicted_answer": 42.0, "gold_answer": 42, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 42)\n[/ANSWER]"}
+{"id": "id-00530", "predicted_answer": 67.0, "gold_answer": 67, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(filtration_score == 67)\n[/ANSWER]"}
+{"id": "id-00531", "predicted_answer": null, "gold_answer": 87262, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00532", "predicted_answer": 0.0, "gold_answer": 0, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 0)\n[/ANSWER]"}
+{"id": "id-00533", "predicted_answer": 135.0, "gold_answer": 135, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 135)\n[/ANSWER]"}
+{"id": "id-00534", "predicted_answer": 2.0, "gold_answer": 2, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 2)\n[/ANSWER]"}
+{"id": "id-00535", "predicted_answer": 18.0, "gold_answer": 18, "correct": true, "error": null, "raw_output": "[ANSWER]assert(final_diagnostic == 18)[/ANSWER]"}
+{"id": "id-00536", "predicted_answer": 65.0, "gold_answer": 65, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 65)\n[/ANSWER]"}
+{"id": "id-00537", "predicted_answer": 31.0, "gold_answer": 31, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 31)\n[/ANSWER]"}
+{"id": "id-00538", "predicted_answer": 192.4, "gold_answer": 192.4, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 192.4)\n[/ANSWER]"}
+{"id": "id-00539", "predicted_answer": 48.0, "gold_answer": 48, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 48)\n[/ANSWER]"}
+{"id": "id-00540", "predicted_answer": 80.6, "gold_answer": 80.6, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 80.6)\n[/ANSWER]"}
+{"id": "id-00541", "predicted_answer": 4.0, "gold_answer": 4.0, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 4.0)\n[/ANSWER]"}
+{"id": "id-00542", "predicted_answer": 10.0, "gold_answer": 10, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_capacity == 10)\n[/ANSWER]"}
+{"id": "id-00543", "predicted_answer": null, "gold_answer": 83.0, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00544", "predicted_answer": 86.0, "gold_answer": 86, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(thermal_capacity == 86)\n[/ANSWER]"}
+{"id": "id-00545", "predicted_answer": 368.0, "gold_answer": 368, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_capacity == 368)\n[/ANSWER]"}
+{"id": "id-00546", "predicted_answer": -11.0, "gold_answer": -11, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(equilibrium_score == -11)\n[/ANSWER]"}
+{"id": "id-00547", "predicted_answer": null, "gold_answer": 121, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00548", "predicted_answer": 24.0, "gold_answer": 24, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 24)\n[/ANSWER]"}
+{"id": "id-00549", "predicted_answer": 2470.0, "gold_answer": 2470, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_capacity == 2470)\n[/ANSWER]"}
+{"id": "id-00550", "predicted_answer": 73.0, "gold_answer": 73, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 73)\n[/ANSWER]"}
+{"id": "id-00551", "predicted_answer": 22.0, "gold_answer": 22, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(thermal_capacity == 22)\n[/ANSWER]"}
+{"id": "id-00552", "predicted_answer": 12.0, "gold_answer": 12, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 12)\n[/ANSWER]"}
+{"id": "id-00554", "predicted_answer": null, "gold_answer": 270390, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00555", "predicted_answer": 703.0, "gold_answer": 703, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 703)\n[/ANSWER]"}
+{"id": "id-00556", "predicted_answer": 42.0, "gold_answer": 42, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 42)\n[/ANSWER]"}
+{"id": "id-00557", "predicted_answer": null, "gold_answer": 399, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00558", "predicted_answer": 878.0, "gold_answer": 878, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(diag == 878)\n[/ANSWER]"}
+{"id": "id-00559", "predicted_answer": null, "gold_answer": -42459, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00560", "predicted_answer": -4.0, "gold_answer": -4, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == -4)\n[/ANSWER]"}
+{"id": "id-00561", "predicted_answer": null, "gold_answer": 380, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00562", "predicted_answer": null, "gold_answer": 477, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00563", "predicted_answer": 26.0, "gold_answer": 26, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 26)\n[/ANSWER]"}
+{"id": "id-00564", "predicted_answer": 3004.0, "gold_answer": 3004, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_diagnostic == 3004)\n[/ANSWER]"}
+{"id": "id-00565", "predicted_answer": 45.0, "gold_answer": 45, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 45)\n[/ANSWER]"}
+{"id": "id-00570", "predicted_answer": 67.0, "gold_answer": 67, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 67)\n[/ANSWER]"}
+{"id": "id-00571", "predicted_answer": 23.0, "gold_answer": 23, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 23)\n[/ANSWER]"}
+{"id": "id-00572", "predicted_answer": 93.6, "gold_answer": 93.6, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(peak_capacity == 93.6)\n[/ANSWER]"}
+{"id": "id-00573", "predicted_answer": 90.0, "gold_answer": 90, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(energy_threshold == 90)\n[/ANSWER]"}
+{"id": "id-00574", "predicted_answer": 72.8, "gold_answer": 72.8, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 72.8)\n[/ANSWER]"}
+{"id": "id-00575", "predicted_answer": null, "gold_answer": 70.9, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00576", "predicted_answer": 12.5, "gold_answer": 12.5, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 12.5)\n[/ANSWER]"}
+{"id": "id-00577", "predicted_answer": 101.0, "gold_answer": 101, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_score == 101)\n[/ANSWER]"}

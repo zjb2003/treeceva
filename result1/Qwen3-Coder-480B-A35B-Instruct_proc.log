@@ -1,0 +1,10 @@
+2026-03-17 21:57:11,266 | INFO | __main__ | Eval started
+2026-03-17 21:57:11,266 | INFO | __main__ | Backend: api
+2026-03-17 21:57:11,266 | INFO | __main__ | Output path: C:\Users\caoye04\Desktop\bench\treeceva\result\Qwen3-Coder-480B-A35B-Instruct_thought.jsonl
+2026-03-17 21:57:11,266 | INFO | __main__ | Batch size: 4
+2026-03-17 21:57:11,266 | INFO | __main__ | Temperature: 0.00
+2026-03-17 21:57:11,266 | INFO | __main__ | Cot: False
+2026-03-17 21:57:11,266 | INFO | __main__ | enable_thinking: False
+2026-03-17 21:57:11,879 | INFO | backend | Initializing APIBackend | model=Qwen3-Coder-480B-A35B-Instruct | base_url=https://llmapi.paratera.com/v1/
+2026-03-17 21:57:12,833 | INFO | backend | APIBackend initialized successfully
+Processing samples: 0it [00:00, ?it/s]Processing samples: 500it [00:00, 30420.84it/s]

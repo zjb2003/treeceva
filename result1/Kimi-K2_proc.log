@@ -1,0 +1,1104 @@
+2026-03-12 13:05:15,319 | INFO | __main__ | Eval started
+2026-03-12 13:05:15,319 | INFO | __main__ | Backend: api
+2026-03-12 13:05:15,319 | INFO | __main__ | Output path: C:\Users\caoye04\Desktop\bench\treeceva\result\Kimi-K2_thought.jsonl
+2026-03-12 13:05:15,319 | INFO | __main__ | Batch size: 4
+2026-03-12 13:05:15,319 | INFO | __main__ | Temperature: 0.00
+2026-03-12 13:05:15,319 | INFO | __main__ | Cot: False
+2026-03-12 13:05:15,320 | INFO | __main__ | enable_thinking: False
+2026-03-12 13:05:16,266 | INFO | backend | Initializing APIBackend | model=Kimi-K2 | base_url=https://llmapi.paratera.com/v1/
+2026-03-12 13:05:18,863 | INFO | backend | APIBackend initialized successfully
+Processing samples: 0it [00:00, ?it/s]2026-03-12 13:05:18,882 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:05:58,822 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:05:59,488 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:06:28,559 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:07:16,898 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:07:16,904 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:07:16,904 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:07:16,904 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:07:16,904 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 164it [01:58,  1.39it/s]2026-03-12 13:07:16,905 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:08:24,894 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:08:38,031 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:08:48,935 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:08:49,758 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:08:49,759 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:08:49,759 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:08:49,759 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:08:49,759 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 168it [03:30,  1.48s/it]2026-03-12 13:08:49,760 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:09:09,274 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:09:25,375 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:09:39,212 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:09:40,008 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:09:40,010 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:09:40,011 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:09:40,011 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:09:40,011 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 172it [04:21,  1.99s/it]2026-03-12 13:09:40,013 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:09:40,746 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:09:59,695 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:10:08,590 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:10:21,674 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:10:21,679 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:10:21,680 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:10:21,680 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:10:21,680 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 176it [05:02,  2.50s/it]2026-03-12 13:10:21,682 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:10:24,139 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:10:24,842 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:10:51,318 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:10:52,230 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:10:52,233 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:10:52,233 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:10:52,233 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:10:52,233 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 180it [05:33,  2.92s/it]2026-03-12 13:10:52,234 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:11:02,864 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:11:03,539 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:11:27,090 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:11:28,647 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:11:28,649 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:11:28,649 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:11:28,649 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:11:28,649 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 184it [06:09,  3.56s/it]2026-03-12 13:11:28,650 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:11:47,573 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:12:13,008 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:12:14,274 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:12:40,278 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:12:40,336 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:12:40,337 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:12:40,337 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:12:40,337 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 188it [07:21,  5.41s/it]2026-03-12 13:12:40,339 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:13:07,130 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:13:24,572 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:13:25,625 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:14:19,977 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:14:19,980 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:14:19,980 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:14:19,980 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:14:19,981 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 192it [09:01,  8.44s/it]2026-03-12 13:14:19,982 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:14:37,355 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:15:16,815 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:16:10,195 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:16:19,119 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:16:19,124 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:16:19,124 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:16:19,125 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:16:19,125 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 196it [11:00, 12.32s/it]2026-03-12 13:16:19,126 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:16:42,853 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:16:46,410 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:17:08,162 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:17:35,771 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:17:35,773 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:17:35,774 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:17:35,774 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:17:35,774 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 200it [12:16, 13.73s/it]2026-03-12 13:17:35,774 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:17:48,296 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:18:14,762 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:18:52,315 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:19:54,355 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:19:54,358 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:19:54,358 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:19:54,358 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:19:54,359 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 204it [14:35, 18.48s/it]2026-03-12 13:19:54,359 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:20:27,956 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:21:32,431 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:21:33,521 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:21:46,616 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:21:46,620 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:21:46,620 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:21:46,620 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:21:46,621 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 208it [16:27, 20.83s/it]2026-03-12 13:21:46,625 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:22:30,581 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:23:02,845 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:23:30,508 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:23:31,451 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:23:31,453 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:23:31,453 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:23:31,453 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:23:31,454 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 212it [18:12, 22.23s/it]2026-03-12 13:23:31,454 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:23:32,455 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:24:12,154 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:24:34,256 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:25:53,136 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:25:53,145 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:25:53,145 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:25:53,145 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:25:53,146 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 216it [20:34, 25.80s/it]2026-03-12 13:25:53,147 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:25:59,402 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:26:18,235 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:26:44,068 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:27:21,627 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:27:21,636 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:27:21,636 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:27:21,637 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:27:21,637 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 220it [22:02, 24.77s/it]2026-03-12 13:27:21,637 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:27:38,648 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:27:39,529 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:28:54,250 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:28:58,306 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:28:58,309 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:28:58,309 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:28:58,309 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:28:58,309 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 224it [23:39, 24.60s/it]2026-03-12 13:28:58,310 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:28:59,179 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:29:16,725 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:29:51,229 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:30:33,424 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:30:33,427 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:30:33,427 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:30:33,428 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:30:33,428 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 228it [25:14, 24.36s/it]2026-03-12 13:30:33,430 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:31:13,055 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:31:51,974 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:32:12,185 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:32:54,228 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:32:54,229 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:32:54,231 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:32:54,231 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:32:54,231 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 232it [27:35, 27.53s/it]2026-03-12 13:32:54,231 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:33:24,656 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:34:08,823 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:34:47,875 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:35:08,832 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:35:08,836 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:35:08,837 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:35:08,837 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:35:08,837 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 236it [29:49, 29.33s/it]2026-03-12 13:35:08,839 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:35:09,722 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:36:23,119 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:37:52,438 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:38:20,418 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:38:20,424 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:38:20,424 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:38:20,424 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:38:20,424 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 240it [33:01, 34.83s/it]2026-03-12 13:38:20,425 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:39:10,151 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:39:33,852 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:40:15,683 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:41:00,764 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:41:00,767 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:41:00,768 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:41:00,768 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:41:00,769 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 244it [35:41, 36.39s/it]2026-03-12 13:41:00,771 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:41:01,967 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:41:09,874 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:41:15,035 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:41:51,599 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:41:51,606 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:41:51,606 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:41:51,606 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:41:51,606 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 248it [36:32, 29.33s/it]2026-03-12 13:41:51,606 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:42:21,071 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:42:55,277 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:43:01,423 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:43:46,418 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:43:46,419 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:43:46,419 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:43:46,419 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:43:46,419 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 252it [38:27, 29.15s/it]2026-03-12 13:43:46,421 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:43:52,580 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:44:22,679 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:45:34,238 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:46:25,758 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:46:25,759 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:46:25,760 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:46:25,760 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:46:25,760 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 256it [41:06, 32.34s/it]2026-03-12 13:46:25,761 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:46:52,806 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:47:10,355 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:47:50,314 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:48:19,425 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:48:19,429 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:48:19,429 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:48:19,429 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:48:19,429 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 260it [43:00, 31.17s/it]2026-03-12 13:48:19,429 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:48:50,965 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:50:00,777 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:50:59,008 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:51:37,966 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:51:37,969 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:51:37,969 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:51:37,969 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:51:37,969 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 264it [46:19, 36.70s/it]2026-03-12 13:51:37,970 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:52:05,270 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:52:06,600 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:52:52,672 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:53:31,050 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:53:31,053 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:53:31,053 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:53:31,053 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:53:31,053 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 268it [48:12, 34.17s/it]2026-03-12 13:53:31,055 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:53:55,600 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:55:21,063 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:56:17,759 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:56:18,755 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:56:18,757 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:56:18,757 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:56:18,757 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:56:18,757 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 272it [50:59, 36.50s/it]2026-03-12 13:56:18,758 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:56:19,761 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:56:21,888 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:57:29,864 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:57:53,497 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:57:53,498 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:57:53,498 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:57:53,498 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:57:53,498 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 276it [52:34, 32.66s/it]2026-03-12 13:57:53,499 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 13:58:24,374 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:58:56,033 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:59:25,671 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:59:50,973 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 13:59:50,977 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:59:50,977 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:59:50,977 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 13:59:50,977 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 280it [54:32, 31.67s/it]2026-03-12 13:59:50,978 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:00:41,528 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:01:25,710 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:02:14,900 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:02:53,084 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:02:53,087 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:02:53,087 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:02:53,087 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:02:53,087 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 284it [57:34, 35.83s/it]2026-03-12 14:02:53,088 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:03:34,422 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:03:40,431 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:04:11,598 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:04:13,407 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:04:13,411 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:04:13,412 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:04:13,413 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:04:13,413 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 288it [58:54, 31.10s/it]2026-03-12 14:04:13,415 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:05:06,289 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:05:49,526 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:05:50,695 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:06:43,857 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:06:43,860 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:06:43,861 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:06:43,861 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:06:43,861 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 292it [1:01:24, 33.06s/it]2026-03-12 14:06:43,863 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:06:45,393 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:07:51,615 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:08:38,097 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:09:25,580 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:09:25,592 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:09:25,592 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:09:25,592 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:09:25,592 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 296it [1:04:06, 35.27s/it]2026-03-12 14:09:25,592 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:10:13,767 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:10:15,524 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:10:39,448 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:11:29,882 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:11:29,885 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:11:29,886 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:11:29,886 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:11:29,886 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 300it [1:06:11, 34.01s/it]2026-03-12 14:11:29,887 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:12:00,852 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:12:02,245 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:13:08,486 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:14:48,936 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:14:48,938 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:14:48,938 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:14:48,939 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:14:48,939 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 304it [1:09:30, 38.74s/it]2026-03-12 14:14:48,940 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:14:50,732 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:16:06,521 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:16:47,464 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:18:13,375 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:18:13,378 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:18:13,378 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:18:13,378 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:18:13,378 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 308it [1:12:54, 42.45s/it]2026-03-12 14:18:13,379 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:19:49,892 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:20:38,535 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:21:28,635 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:21:29,932 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:21:29,937 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:21:29,937 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:21:29,938 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:21:29,938 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 312it [1:16:11, 44.46s/it]2026-03-12 14:21:29,940 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:21:32,816 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:23:27,625 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:25:27,633 | INFO | openai._base_client | Retrying request to /chat/completions in 0.426035 seconds
+2026-03-12 14:27:28,680 | INFO | openai._base_client | Retrying request to /chat/completions in 0.860462 seconds
+2026-03-12 14:29:30,233 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http_proxy.py", line 343, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 982, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 412, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1000, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+2026-03-12 14:29:40,900 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:29:40,904 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:29:40,904 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:29:40,904 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:29:40,904 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 316it [1:24:22, 67.94s/it]2026-03-12 14:29:40,905 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:30:57,964 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:31:14,740 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:31:47,766 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:32:18,831 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:32:18,835 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:32:18,835 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:32:18,836 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:32:18,836 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 320it [1:26:59, 59.40s/it]2026-03-12 14:32:18,838 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:33:11,814 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:33:57,619 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:34:28,373 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:35:06,241 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:35:06,245 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:35:06,246 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:35:06,246 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:35:06,246 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 324it [1:29:47, 54.14s/it]2026-03-12 14:35:06,248 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:35:25,073 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:35:58,843 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:36:53,649 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:37:07,248 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:37:07,254 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:37:07,254 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:37:07,254 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:37:07,254 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 328it [1:31:48, 46.97s/it]2026-03-12 14:37:07,254 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:37:10,015 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:37:13,399 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:37:18,858 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:38:47,788 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:38:47,825 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:38:47,826 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:38:47,826 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:38:47,827 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 332it [1:33:28, 40.42s/it]2026-03-12 14:38:47,829 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:39:44,839 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:40:55,411 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:41:55,403 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:43:11,745 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:43:11,749 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:43:11,750 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:43:11,750 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:43:11,750 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 336it [1:37:52, 48.09s/it]2026-03-12 14:43:11,752 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:43:19,626 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:45:19,635 | INFO | openai._base_client | Retrying request to /chat/completions in 0.492736 seconds
+2026-03-12 14:47:20,637 | INFO | openai._base_client | Retrying request to /chat/completions in 0.806711 seconds
+2026-03-12 14:48:31,282 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:49:13,122 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:50:01,032 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:50:01,035 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:50:01,035 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:50:01,035 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:50:01,035 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 340it [1:44:42, 64.36s/it]2026-03-12 14:50:01,037 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:52:01,050 | INFO | openai._base_client | Retrying request to /chat/completions in 0.420098 seconds
+2026-03-12 14:52:03,234 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:52:32,299 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:54:32,317 | INFO | openai._base_client | Retrying request to /chat/completions in 0.440935 seconds
+2026-03-12 14:56:32,797 | INFO | openai._base_client | Retrying request to /chat/completions in 0.879016 seconds
+2026-03-12 14:58:33,705 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http_proxy.py", line 343, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 982, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 412, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1000, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+2026-03-12 14:58:46,185 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 14:58:46,190 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:58:46,190 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:58:46,191 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 14:58:46,191 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 344it [1:53:27, 84.44s/it]2026-03-12 14:58:46,192 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 14:59:14,853 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:01:14,860 | INFO | openai._base_client | Retrying request to /chat/completions in 0.476529 seconds
+2026-03-12 15:02:39,238 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:03:13,652 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:05:13,671 | INFO | openai._base_client | Retrying request to /chat/completions in 0.429465 seconds
+2026-03-12 15:05:21,964 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:05:21,966 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:05:21,966 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:05:21,966 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:05:21,967 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 348it [2:00:03, 88.79s/it]2026-03-12 15:05:21,968 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 15:05:23,162 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:06:56,190 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:08:09,426 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:10:09,436 | INFO | openai._base_client | Retrying request to /chat/completions in 0.382456 seconds
+2026-03-12 15:12:10,614 | INFO | openai._base_client | Retrying request to /chat/completions in 0.846627 seconds
+2026-03-12 15:14:13,118 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http_proxy.py", line 343, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 982, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 412, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1000, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+2026-03-12 15:14:13,125 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:14:13,126 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:14:13,126 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:14:13,126 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 352it [2:08:54, 101.99s/it]2026-03-12 15:14:13,127 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 15:16:14,557 | INFO | openai._base_client | Retrying request to /chat/completions in 0.382565 seconds
+2026-03-12 15:18:15,457 | INFO | openai._base_client | Retrying request to /chat/completions in 0.900628 seconds
+2026-03-12 15:19:50,409 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:21:20,417 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:22:07,434 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:22:48,729 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:22:48,734 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:22:48,735 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:22:48,735 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:22:48,735 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 356it [2:17:29, 110.06s/it]2026-03-12 15:22:48,736 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 15:23:37,770 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:24:37,367 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:25:56,608 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:26:25,786 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:26:25,790 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:26:25,790 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:26:25,790 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:26:25,790 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 360it [2:21:06, 93.32s/it] 2026-03-12 15:26:25,792 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 15:26:55,331 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:28:20,967 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:28:22,462 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:29:43,064 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:29:43,068 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:29:43,068 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:29:43,068 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:29:43,068 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 364it [2:24:24, 80.12s/it]2026-03-12 15:29:43,071 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 15:30:30,143 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:31:06,444 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:31:48,182 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:32:54,634 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:32:54,637 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:32:54,637 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:32:54,638 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:32:54,638 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 368it [2:27:35, 70.45s/it]2026-03-12 15:32:54,639 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 15:32:56,042 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:34:19,052 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:36:03,466 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:36:11,805 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:36:11,809 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:36:11,809 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:36:11,810 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:36:11,810 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 372it [2:30:52, 64.11s/it]2026-03-12 15:36:11,811 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 15:36:16,339 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:36:18,816 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:37:31,849 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:37:38,478 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:37:38,482 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:37:38,482 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:37:38,483 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:37:38,483 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 376it [2:32:19, 51.37s/it]2026-03-12 15:37:38,484 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 15:37:44,913 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:37:47,974 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:38:57,666 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:39:37,261 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:39:37,262 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:39:37,262 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:39:37,262 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:39:37,262 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 380it [2:34:18, 44.87s/it]2026-03-12 15:39:37,262 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 15:40:28,271 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:41:40,338 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:41:41,840 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:43:13,143 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:43:13,147 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:43:13,147 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:43:13,147 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:43:13,147 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 384it [2:37:54, 47.60s/it]2026-03-12 15:43:13,148 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 15:44:05,263 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:45:07,591 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:45:30,075 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:45:31,401 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:45:31,404 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:45:31,404 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:45:31,404 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:45:31,405 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 388it [2:40:12, 43.69s/it]2026-03-12 15:45:31,406 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 15:46:02,612 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:46:03,931 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:46:05,781 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:46:07,947 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:46:07,949 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:46:07,949 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:46:07,949 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:46:07,949 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 392it [2:40:49, 33.32s/it]2026-03-12 15:46:07,950 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 15:46:50,668 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:47:30,325 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:48:49,600 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:50:49,610 | INFO | openai._base_client | Retrying request to /chat/completions in 0.392659 seconds
+2026-03-12 15:52:44,873 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:52:44,875 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:52:44,876 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:52:44,876 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:52:44,876 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 396it [2:47:26, 53.10s/it]2026-03-12 15:52:44,876 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 15:53:23,957 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:54:01,979 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:54:10,366 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:55:32,479 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:55:32,483 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:55:32,483 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:55:32,483 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 15:55:32,483 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 400it [2:50:13, 49.74s/it]2026-03-12 15:55:32,484 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 15:55:33,961 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:57:21,146 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 15:59:21,228 | INFO | openai._base_client | Retrying request to /chat/completions in 0.399972 seconds
+2026-03-12 15:59:37,250 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:00:11,593 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:00:11,596 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:00:11,597 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:00:11,597 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:00:11,597 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 404it [2:54:52, 55.75s/it]2026-03-12 16:00:11,599 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:01:30,855 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:02:59,309 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:03:36,957 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:04:26,700 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:04:26,708 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:04:26,708 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:04:26,709 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:04:26,709 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 408it [2:59:07, 58.16s/it]2026-03-12 16:04:26,710 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:05:26,819 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:06:24,619 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:06:40,245 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:08:17,986 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:08:17,988 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:08:17,988 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:08:17,988 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:08:17,988 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 412it [3:02:59, 58.06s/it]2026-03-12 16:08:17,989 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:08:58,524 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:10:05,164 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:11:08,947 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:13:00,170 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:13:00,175 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:13:00,175 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:13:00,175 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:13:00,176 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 416it [3:07:41, 61.80s/it]2026-03-12 16:13:00,179 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:14:20,668 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:15:30,299 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:15:43,753 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:15:51,164 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:15:51,168 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:15:51,168 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:15:51,168 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:15:51,168 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 420it [3:10:32, 56.09s/it]2026-03-12 16:15:51,169 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:16:58,200 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:17:39,399 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:19:17,522 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:20:13,859 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:20:13,866 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:20:13,867 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:20:13,867 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:20:13,868 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 424it [3:14:54, 58.96s/it]2026-03-12 16:20:13,869 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:22:00,867 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:24:00,886 | INFO | openai._base_client | Retrying request to /chat/completions in 0.487157 seconds
+2026-03-12 16:24:16,564 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:24:26,354 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:24:28,748 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:24:28,753 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:24:28,753 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:24:28,753 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:24:28,753 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 428it [3:19:09, 60.39s/it]2026-03-12 16:24:28,753 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:25:12,226 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:26:06,012 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:26:46,877 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:27:32,679 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:27:32,683 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:27:32,683 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:27:32,684 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:27:32,684 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 432it [3:22:13, 56.07s/it]2026-03-12 16:27:32,686 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:27:34,425 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:27:53,360 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:28:14,098 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:28:39,614 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:28:39,618 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:28:39,618 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:28:39,619 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:28:39,619 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 436it [3:23:20, 44.27s/it]2026-03-12 16:28:39,620 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:29:12,512 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:29:32,424 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:29:47,727 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:30:28,013 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:30:28,019 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:30:28,019 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:30:28,019 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:30:28,020 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 440it [3:25:09, 39.12s/it]2026-03-12 16:30:28,021 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:31:03,614 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:31:58,029 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:32:46,049 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:34:34,545 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:34:34,551 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:34:34,552 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:34:34,552 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:34:34,553 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 444it [3:29:15, 45.87s/it]2026-03-12 16:34:34,554 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:34:44,566 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:34:46,092 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:34:54,492 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:35:22,331 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:35:22,337 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:35:22,338 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:35:22,338 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:35:22,339 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 448it [3:30:03, 35.69s/it]2026-03-12 16:35:22,342 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:36:05,192 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:36:51,228 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:36:52,936 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:37:39,843 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:37:39,849 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:37:39,849 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:37:39,849 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:37:39,849 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 452it [3:32:20, 35.30s/it]2026-03-12 16:37:39,850 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:38:14,475 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:39:00,017 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:39:37,289 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:40:41,986 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:40:41,990 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:40:41,990 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:40:41,990 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:40:41,990 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 456it [3:35:23, 38.37s/it]2026-03-12 16:40:41,990 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:40:54,760 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:42:37,964 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:42:50,744 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:42:59,800 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:42:59,802 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:42:59,802 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:42:59,802 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:42:59,802 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 460it [3:37:40, 37.20s/it]2026-03-12 16:42:59,803 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:44:00,735 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:45:47,111 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:46:38,450 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:47:22,825 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:47:22,828 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:47:22,828 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:47:22,829 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:47:22,829 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 464it [3:42:03, 45.76s/it]2026-03-12 16:47:22,830 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:48:30,646 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:48:39,249 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:49:25,484 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:49:27,110 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:49:27,114 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:49:27,114 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:49:27,115 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:49:27,115 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 468it [3:44:08, 41.36s/it]2026-03-12 16:49:27,118 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:49:36,249 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:50:30,749 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:51:06,722 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:52:36,967 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:52:36,973 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:52:36,973 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:52:36,973 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:52:36,973 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 472it [3:47:18, 43.19s/it]2026-03-12 16:52:36,973 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:53:21,922 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:53:56,265 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:54:36,890 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:55:29,528 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:55:29,533 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:55:29,534 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:55:29,534 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 16:55:29,535 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 476it [3:50:10, 43.17s/it]2026-03-12 16:55:29,537 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 16:56:08,883 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:57:57,591 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 16:59:14,016 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:00:02,108 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:00:02,111 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:00:02,112 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:00:02,113 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:00:02,113 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 480it [3:54:43, 50.67s/it]2026-03-12 17:00:02,114 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 17:00:03,469 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:01:27,019 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:02:31,839 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:04:30,179 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:04:30,180 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:04:30,180 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:04:30,180 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:04:30,180 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 484it [3:59:11, 55.57s/it]2026-03-12 17:04:30,181 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 17:06:03,149 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:06:04,683 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:06:52,933 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:08:53,068 | INFO | openai._base_client | Retrying request to /chat/completions in 0.390566 seconds
+2026-03-12 17:08:55,655 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:08:55,658 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:08:55,658 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:08:55,659 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:08:55,659 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 488it [4:03:36, 58.81s/it]2026-03-12 17:08:55,660 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 17:10:19,697 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:12:19,712 | INFO | openai._base_client | Retrying request to /chat/completions in 0.403341 seconds
+2026-03-12 17:12:26,445 | INFO | openai._base_client | Retrying request to /chat/completions in 0.775819 seconds
+2026-03-12 17:12:33,586 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http_proxy.py", line 316, in handle_request
+    stream = stream.start_tls(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 376, in start_tls
+    return self._stream.start_tls(ssl_context, server_hostname, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\sync.py", line 154, in start_tls
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 982, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 412, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1014, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+2026-03-12 17:12:39,918 | INFO | openai._base_client | Retrying request to /chat/completions in 0.485613 seconds
+2026-03-12 17:12:46,958 | INFO | openai._base_client | Retrying request to /chat/completions in 0.827020 seconds
+2026-03-12 17:14:04,296 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:14:28,024 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:14:28,032 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:14:28,032 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:14:28,032 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:14:28,033 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 492it [4:09:09, 66.10s/it]2026-03-12 17:14:28,034 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 17:14:29,476 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:14:33,828 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:14:36,197 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:14:58,667 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:14:58,670 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:14:58,670 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:14:58,670 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:14:58,670 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 496it [4:09:39, 48.56s/it]2026-03-12 17:14:58,671 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-12 17:15:07,298 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:15:44,200 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:16:12,629 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:16:47,151 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-12 17:16:47,154 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:16:47,154 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:16:47,154 | INFO | __main__ | Flushing batch | size=4
+2026-03-12 17:16:47,154 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 500it [4:11:28, 42.13s/it]Processing samples: 500it [4:11:28, 30.18s/it]

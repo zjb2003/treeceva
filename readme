@@ -1,0 +1,15 @@
+
+# 进入项目目录
+cd C:\Users\caoye04\Desktop\bench\treeceva
+
+# 全量运行（已有部分结果的模型会自动 resume 续跑）
+python run_all_experiments.py
+
+# 跳过已经跑满 500 条的模型（推荐重启时使用）
+python run_all_experiments.py --skip-done
+
+# 先 dry-run 确认命令无误
+python run_all_experiments.py --dry-run
+
+# 只补跑若干指定模型
+python run_all_experiments.py --only gpt-4,gpt-4o,DeepSeek-R1

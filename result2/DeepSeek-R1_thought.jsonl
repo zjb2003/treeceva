@@ -1,0 +1,12 @@
+{"id": "id-00006", "predicted_answer": 1662.0, "gold_answer": 1662, "correct": true, "error": null, "raw_output": "[THOUGHT]\nThe code processes a list of base64-encoded strings:\n1. Decode b'SGVsbG8=' to 'Hello' → checksum = 72+101+108+108+111 = 500\n2. Decode b'V29ybGQ=' to 'World' → checksum = 87+111+114+108+100 = 520\n3. Decode b'UHl0aG9u' to 'Python' → checksum = 80+121+116+104+111+110 = 642\nSum of checksums: 500 + 520 + 642 = 1662\nThe final_security_checksum is 1662.\n[/THOUGHT]\n[ANSWER]\nassert(final_security_checksum == 1662)\n[/ANSWER]"}
+{"id": "id-00008", "predicted_answer": 240.0, "gold_answer": 240, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(verification_mask == 240)\n[/ANSWER]"}
+{"id": "id-00012", "predicted_answer": 3.0, "gold_answer": 3, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 3)\n[/ANSWER]"}
+{"id": "id-00013", "predicted_answer": 44.5, "gold_answer": 44.5, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(result == 44.5)\n[/ANSWER]"}
+{"id": "id-00014", "predicted_answer": 244.0, "gold_answer": 244, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_checksum == 244)\n[/ANSWER]"}
+{"id": "id-00015", "predicted_answer": null, "gold_answer": 246, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00018", "predicted_answer": null, "gold_answer": 27, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00019", "predicted_answer": 48.0, "gold_answer": 48, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_output == 48)\n[/ANSWER]"}
+{"id": "id-00020", "predicted_answer": 7.0, "gold_answer": 7, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(cryptographic_key == 7)\n[/ANSWER]"}
+{"id": "id-00021", "predicted_answer": 10.0, "gold_answer": 10, "correct": true, "error": null, "raw_output": "[ANSWER]\nassert(final_efficiency == 10)"}
+{"id": "id-00022", "predicted_answer": null, "gold_answer": 49, "correct": false, "error": "empty_output", "raw_output": ""}
+{"id": "id-00023", "predicted_answer": null, "gold_answer": 278, "correct": false, "error": "empty_output", "raw_output": ""}
