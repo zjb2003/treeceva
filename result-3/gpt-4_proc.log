@@ -2102,3 +2102,1498 @@ openai.APIConnectionError: Connection error.
 Processing samples: 132it [26:41, 12.45s/it]2026-03-18 21:06:01,570 | INFO | backend | APIBackend.generate_batch | batch_size=4
 2026-03-18 21:06:10,070 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
 2026-03-18 21:06:22,028 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:06:28,155 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:06:34,883 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:06:34,884 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:06:34,884 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:06:34,884 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:06:34,884 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 136it [27:14, 11.21s/it]2026-03-18 21:06:34,886 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:06:41,367 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:06:56,947 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:07:11,612 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:07:28,480 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:07:28,480 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:07:28,481 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:07:28,481 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:07:28,481 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 140it [28:07, 11.87s/it]2026-03-18 21:07:28,482 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:07:51,419 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:08:03,181 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:08:07,538 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:08:12,436 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:08:12,436 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:08:12,436 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:08:12,436 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:08:12,436 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 144it [28:51, 11.60s/it]2026-03-18 21:08:12,437 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:08:20,299 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:08:45,963 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:08:52,178 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:09:14,423 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:09:14,424 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:09:14,424 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:09:14,425 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:09:14,425 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 148it [29:53, 12.77s/it]2026-03-18 21:09:14,426 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:09:28,185 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:09:54,092 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:10:05,635 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:10:22,517 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:10:22,518 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:10:22,518 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:10:22,519 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:10:22,519 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 152it [31:01, 14.05s/it]2026-03-18 21:10:22,519 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:10:27,532 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:10:35,699 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:11:08,321 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:11:38,036 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:11:38,037 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:11:38,037 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:11:38,037 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:11:38,038 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 156it [32:17, 15.50s/it]2026-03-18 21:11:38,038 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:11:53,500 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:12:06,868 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:12:20,453 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:12:32,296 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:12:32,296 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:12:32,296 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:12:32,296 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:12:32,297 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 160it [33:11, 14.92s/it]2026-03-18 21:12:32,297 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:12:44,094 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:12:46,592 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:13:14,189 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:13:45,333 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:13:45,333 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:13:45,334 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:13:45,334 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:13:45,334 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 164it [34:24, 15.92s/it]2026-03-18 21:13:45,335 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:13:56,311 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:14:02,126 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:14:08,539 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:14:11,978 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:14:11,979 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:14:11,979 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:14:11,979 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:14:11,979 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 168it [34:51, 13.14s/it]2026-03-18 21:14:11,979 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:14:26,592 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:14:32,679 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:14:36,711 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:14:47,211 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:14:47,211 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:14:47,211 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:14:47,211 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:14:47,211 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 172it [35:26, 11.84s/it]2026-03-18 21:14:47,211 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:14:49,438 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:15:00,680 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:15:13,713 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:15:19,986 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:15:19,986 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:15:19,986 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:15:19,986 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:15:19,986 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 176it [35:59, 10.75s/it]2026-03-18 21:15:19,987 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:15:24,492 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:15:27,465 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:15:41,521 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:15:47,112 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:15:47,113 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:15:47,113 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:15:47,113 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:15:47,113 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 180it [36:26,  9.56s/it]2026-03-18 21:15:47,114 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:15:50,653 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:15:55,983 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:16:02,965 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:16:08,401 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:16:08,402 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:16:08,402 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:16:08,402 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:16:08,402 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 184it [36:47,  8.29s/it]2026-03-18 21:16:08,403 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:16:42,915 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:16:52,408 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:17:05,438 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:17:10,793 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:17:10,795 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:17:10,795 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:17:10,795 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:17:10,797 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 188it [37:50, 10.48s/it]2026-03-18 21:17:10,798 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:17:18,214 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:17:23,612 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:17:34,682 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:17:57,662 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:17:57,664 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:17:57,664 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:17:57,664 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:17:57,664 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 192it [38:37, 10.85s/it]2026-03-18 21:17:57,665 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:18:08,938 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:18:24,820 | INFO | openai._base_client | Retrying request to /chat/completions in 0.448215 seconds
+2026-03-18 21:18:34,845 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:18:58,751 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:19:10,103 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:19:10,104 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:19:10,104 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:19:10,104 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:19:10,104 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 196it [39:49, 13.03s/it]2026-03-18 21:19:10,105 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:19:21,358 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:19:35,862 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:19:41,591 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:19:52,515 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:19:52,516 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:19:52,516 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:19:52,516 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:19:52,517 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 200it [40:31, 12.30s/it]2026-03-18 21:19:52,518 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:19:57,255 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:20:08,721 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:20:17,209 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:20:55,397 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:20:55,401 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:20:55,401 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:20:55,402 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:20:55,402 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 204it [41:34, 13.33s/it]2026-03-18 21:20:55,403 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:21:04,167 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:21:31,134 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:21:40,040 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:21:52,698 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:21:52,701 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:21:52,702 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:21:52,703 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:21:52,703 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 208it [42:32, 13.63s/it]2026-03-18 21:21:52,704 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:22:21,086 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:22:32,496 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:22:41,143 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:22:56,218 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:22:56,221 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:22:56,222 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:22:56,222 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:22:56,222 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 212it [43:35, 14.30s/it]2026-03-18 21:22:56,224 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:23:02,964 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:23:32,667 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:23:38,649 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:23:48,431 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:23:48,432 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:23:48,432 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:23:48,432 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:23:48,432 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 216it [44:27, 13.93s/it]2026-03-18 21:23:48,433 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:23:55,723 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:24:08,753 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:24:37,921 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:24:52,083 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:24:52,084 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:24:52,085 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:24:52,085 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:24:52,085 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 220it [45:31, 14.52s/it]2026-03-18 21:24:52,086 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:24:56,331 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:25:13,515 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:25:48,361 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:26:13,937 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:26:13,937 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:26:13,937 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:26:13,937 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:26:13,937 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 224it [46:53, 16.31s/it]2026-03-18 21:26:13,938 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:26:19,224 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:26:24,288 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:26:32,866 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:26:46,704 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:26:46,705 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:26:46,705 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:26:46,705 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:26:46,706 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 228it [47:26, 13.87s/it]2026-03-18 21:26:46,707 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:27:00,377 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:27:37,827 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:27:43,156 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:27:55,502 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:27:55,502 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:27:55,502 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:27:55,502 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:27:55,503 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 232it [48:34, 14.87s/it]2026-03-18 21:27:55,503 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:28:01,945 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:28:13,054 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:28:27,903 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:28:39,680 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:28:39,681 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:28:39,681 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:28:39,681 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:28:39,681 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 236it [49:19, 13.72s/it]2026-03-18 21:28:39,682 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:28:47,503 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:29:04,097 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:29:22,299 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:29:26,847 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:29:26,848 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:29:26,848 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:29:26,848 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:29:26,848 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 240it [50:06, 13.14s/it]2026-03-18 21:29:26,849 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:29:37,111 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:29:50,843 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:30:03,595 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:30:26,443 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:30:26,444 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:30:26,444 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:30:26,444 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:30:26,444 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 244it [51:05, 13.67s/it]2026-03-18 21:30:26,445 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:30:34,246 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:30:37,421 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:30:44,242 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:30:49,435 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:30:49,436 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:30:49,436 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:30:49,436 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:30:49,436 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 248it [51:28, 11.29s/it]2026-03-18 21:30:49,436 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:30:58,377 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:31:07,590 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:31:34,042 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:31:42,731 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:31:42,732 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:31:42,732 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:31:42,732 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:31:42,732 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 252it [52:22, 11.90s/it]2026-03-18 21:31:42,733 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:31:55,916 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:32:06,572 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:32:35,350 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:32:44,637 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:32:44,638 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:32:44,638 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:32:44,638 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:32:44,639 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 256it [53:24, 12.97s/it]2026-03-18 21:32:44,639 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:32:53,437 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:33:03,495 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:33:21,109 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:33:34,590 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:33:34,592 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:33:34,593 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:33:34,593 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:33:34,593 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 260it [54:14, 12.83s/it]2026-03-18 21:33:34,593 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:33:44,655 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:34:27,048 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:34:40,250 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:34:50,184 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:34:50,184 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:34:50,184 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:34:50,184 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:34:50,185 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 264it [55:29, 14.65s/it]2026-03-18 21:34:50,185 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:34:59,593 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:35:04,291 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:37:04,306 | INFO | openai._base_client | Retrying request to /chat/completions in 0.446265 seconds
+2026-03-18 21:37:06,416 | INFO | openai._base_client | Retrying request to /chat/completions in 0.972776 seconds
+2026-03-18 21:37:32,818 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:37:37,800 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:37:37,800 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:37:37,802 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:37:37,802 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:37:37,802 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 268it [58:17, 22.83s/it]2026-03-18 21:37:37,803 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:37:45,844 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:39:04,786 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:39:17,750 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:39:22,711 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:39:22,712 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:39:22,712 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:39:22,713 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:39:22,713 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 272it [1:00:02, 23.85s/it]2026-03-18 21:39:22,713 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:39:30,211 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:40:15,177 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:40:26,476 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:40:40,664 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:40:40,665 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:40:40,666 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:40:40,666 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:40:40,666 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 276it [1:01:20, 22.54s/it]2026-03-18 21:40:40,667 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:40:47,233 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:40:54,026 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:41:37,275 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:41:58,048 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:41:58,049 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:41:58,049 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:41:58,050 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:41:58,050 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 280it [1:02:37, 21.58s/it]2026-03-18 21:41:58,052 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:42:35,746 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:43:19,584 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:43:50,720 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:43:56,162 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:43:56,163 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:43:56,163 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:43:56,164 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:43:56,164 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 284it [1:04:35, 23.97s/it]2026-03-18 21:43:56,164 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:44:05,545 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:44:15,037 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:44:30,315 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:44:51,039 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:44:51,040 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:44:51,040 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:44:51,042 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:44:51,042 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 288it [1:05:30, 20.89s/it]2026-03-18 21:44:51,043 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:44:59,856 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:45:24,014 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:45:50,086 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:46:26,100 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:46:26,100 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:46:26,102 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:46:26,102 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:46:26,102 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 292it [1:07:05, 21.75s/it]2026-03-18 21:46:26,103 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:46:49,012 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:46:57,495 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:47:33,928 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:47:58,802 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:47:58,803 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:47:58,803 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:47:58,803 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:47:58,804 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 296it [1:08:38, 22.18s/it]2026-03-18 21:47:58,804 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:48:20,635 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:49:08,220 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:49:38,877 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:49:52,201 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:49:52,203 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:49:52,203 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:49:52,203 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:49:52,204 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 300it [1:10:31, 24.03s/it]2026-03-18 21:49:52,205 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:49:57,252 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:50:14,554 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:50:21,070 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:50:44,629 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:50:44,631 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:50:44,631 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:50:44,631 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:50:44,631 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 304it [1:11:24, 20.75s/it]2026-03-18 21:50:44,633 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:50:49,479 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:51:13,441 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:51:19,183 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:52:10,805 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:52:10,806 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:52:10,806 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:52:10,806 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:52:10,806 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 308it [1:12:50, 20.99s/it]2026-03-18 21:52:10,807 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:52:25,692 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:52:31,265 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:52:37,852 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:52:49,885 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:52:49,886 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:52:49,887 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:52:49,887 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:52:49,887 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 312it [1:13:29, 17.62s/it]2026-03-18 21:52:49,888 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:53:03,165 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:53:18,415 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:53:48,036 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:54:42,593 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:54:42,595 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:54:42,595 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:54:42,595 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:54:42,596 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 316it [1:15:22, 20.79s/it]2026-03-18 21:54:42,597 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:55:07,035 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:55:18,524 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:55:22,808 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:55:28,608 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:55:28,609 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:55:28,609 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:55:28,609 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:55:28,609 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 320it [1:16:08, 18.00s/it]2026-03-18 21:55:28,610 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:55:34,140 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:55:39,269 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:55:43,751 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:56:07,994 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:56:07,995 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:56:07,996 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:56:07,996 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:56:07,996 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 324it [1:16:47, 15.56s/it]2026-03-18 21:56:07,998 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:56:14,591 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:56:22,805 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:56:31,783 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:56:39,276 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:56:39,277 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:56:39,277 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:56:39,277 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:56:39,278 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 328it [1:17:18, 13.24s/it]2026-03-18 21:56:39,279 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:56:50,033 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:57:19,216 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:57:40,860 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:57:50,209 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:57:50,210 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:57:50,210 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:57:50,210 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:57:50,211 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 332it [1:18:29, 14.59s/it]2026-03-18 21:57:50,212 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:58:09,263 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:58:22,773 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:58:34,369 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:58:40,647 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:58:40,648 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:58:40,648 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:58:40,648 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:58:40,649 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 336it [1:19:20, 13.99s/it]2026-03-18 21:58:40,650 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:58:55,900 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 21:58:55,901 | INFO | openai._base_client | Retrying request to /chat/completions in 0.410705 seconds
+2026-03-18 21:58:56,649 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 21:58:56,649 | INFO | openai._base_client | Retrying request to /chat/completions in 0.891735 seconds
+2026-03-18 21:58:57,984 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 21:58:57,986 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+ Sorry for the inconvenience.<br/>
+Please report this message and include the following information to us.<br/>
+Thank you very much!</p>
+<table>
+<tr>
+<td>URL:</td>
+<td>https://api.ezai88.com/v1/chat/completions</td>
+</tr>
+<tr>
+<td>Server:</td>
+<td>instance-ror6cwef</td>
+</tr>
+<tr>
+<td>Date:</td>
+<td>2026/03/18 21:58:57</td>
+</tr>
+</table>
+<hr/>Powered by Tengine<hr><center>tengine</center>
+</body>
+</html>
+2026-03-18 21:58:58,599 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 21:58:58,600 | INFO | openai._base_client | Retrying request to /chat/completions in 0.442264 seconds
+2026-03-18 21:58:59,633 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 21:58:59,634 | INFO | openai._base_client | Retrying request to /chat/completions in 0.971136 seconds
+2026-03-18 21:59:01,168 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 21:59:01,169 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+ Sorry for the inconvenience.<br/>
+Please report this message and include the following information to us.<br/>
+Thank you very much!</p>
+<table>
+<tr>
+<td>URL:</td>
+<td>https://api.ezai88.com/v1/chat/completions</td>
+</tr>
+<tr>
+<td>Server:</td>
+<td>instance-ror6cwef</td>
+</tr>
+<tr>
+<td>Date:</td>
+<td>2026/03/18 21:59:00</td>
+</tr>
+</table>
+<hr/>Powered by Tengine<hr><center>tengine</center>
+</body>
+</html>
+2026-03-18 21:59:01,564 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 21:59:01,565 | INFO | openai._base_client | Retrying request to /chat/completions in 0.478321 seconds
+2026-03-18 21:59:02,409 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 21:59:02,409 | INFO | openai._base_client | Retrying request to /chat/completions in 0.879675 seconds
+2026-03-18 21:59:03,611 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 21:59:03,611 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+ Sorry for the inconvenience.<br/>
+Please report this message and include the following information to us.<br/>
+Thank you very much!</p>
+<table>
+<tr>
+<td>URL:</td>
+<td>https://api.ezai88.com/v1/chat/completions</td>
+</tr>
+<tr>
+<td>Server:</td>
+<td>instance-ror6cwef</td>
+</tr>
+<tr>
+<td>Date:</td>
+<td>2026/03/18 21:59:03</td>
+</tr>
+</table>
+<hr/>Powered by Tengine<hr><center>tengine</center>
+</body>
+</html>
+2026-03-18 21:59:03,953 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 21:59:03,953 | INFO | openai._base_client | Retrying request to /chat/completions in 0.490373 seconds
+2026-03-18 21:59:04,792 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 21:59:04,793 | INFO | openai._base_client | Retrying request to /chat/completions in 0.975615 seconds
+2026-03-18 21:59:05,981 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http_proxy.py", line 343, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 231, in _receive_event
+    raise RemoteProtocolError(msg)
+httpcore.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 982, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.RemoteProtocolError: Server disconnected without sending a response.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1014, in request
+    raise APIConnectionError(request=request) from err
+openai.APIConnectionError: Connection error.
+2026-03-18 21:59:05,986 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:59:05,987 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:59:05,987 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:59:05,987 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 340it [1:19:45, 11.70s/it]2026-03-18 21:59:05,988 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:59:19,637 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:59:32,490 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:59:35,969 | INFO | openai._base_client | Retrying request to /chat/completions in 0.439991 seconds
+2026-03-18 21:59:50,466 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 21:59:56,467 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 21:59:56,467 | INFO | openai._base_client | Retrying request to /chat/completions in 0.483429 seconds
+2026-03-18 21:59:57,414 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 21:59:57,414 | INFO | openai._base_client | Retrying request to /chat/completions in 0.848438 seconds
+2026-03-18 21:59:58,695 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 21:59:58,695 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+ Sorry for the inconvenience.<br/>
+Please report this message and include the following information to us.<br/>
+Thank you very much!</p>
+<table>
+<tr>
+<td>URL:</td>
+<td>https://api.ezai88.com/v1/chat/completions</td>
+</tr>
+<tr>
+<td>Server:</td>
+<td>instance-lqd8wjby</td>
+</tr>
+<tr>
+<td>Date:</td>
+<td>2026/03/18 21:59:58</td>
+</tr>
+</table>
+<hr/>Powered by Tengine<hr><center>tengine</center>
+</body>
+</html>
+2026-03-18 21:59:58,698 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:59:58,698 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:59:58,698 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 21:59:58,698 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 344it [1:20:38, 12.14s/it]2026-03-18 21:59:58,699 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 21:59:59,100 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 21:59:59,100 | INFO | openai._base_client | Retrying request to /chat/completions in 0.432548 seconds
+2026-03-18 21:59:59,868 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 21:59:59,868 | INFO | openai._base_client | Retrying request to /chat/completions in 0.968520 seconds
+2026-03-18 22:00:01,224 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:01,224 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+ Sorry for the inconvenience.<br/>
+Please report this message and include the following information to us.<br/>
+Thank you very much!</p>
+<table>
+<tr>
+<td>URL:</td>
+<td>https://api.ezai88.com/v1/chat/completions</td>
+</tr>
+<tr>
+<td>Server:</td>
+<td>instance-lqd8wjby</td>
+</tr>
+<tr>
+<td>Date:</td>
+<td>2026/03/18 22:00:00</td>
+</tr>
+</table>
+<hr/>Powered by Tengine<hr><center>tengine</center>
+</body>
+</html>
+2026-03-18 22:00:01,805 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:01,806 | INFO | openai._base_client | Retrying request to /chat/completions in 0.393410 seconds
+2026-03-18 22:00:02,624 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:02,624 | INFO | openai._base_client | Retrying request to /chat/completions in 0.950340 seconds
+2026-03-18 22:00:04,470 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:04,470 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+ Sorry for the inconvenience.<br/>
+Please report this message and include the following information to us.<br/>
+Thank you very much!</p>
+<table>
+<tr>
+<td>URL:</td>
+<td>https://api.ezai88.com/v1/chat/completions</td>
+</tr>
+<tr>
+<td>Server:</td>
+<td>instance-lqd8wjby</td>
+</tr>
+<tr>
+<td>Date:</td>
+<td>2026/03/18 22:00:03</td>
+</tr>
+</table>
+<hr/>Powered by Tengine<hr><center>tengine</center>
+</body>
+</html>
+2026-03-18 22:00:04,915 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:04,915 | INFO | openai._base_client | Retrying request to /chat/completions in 0.394141 seconds
+2026-03-18 22:00:05,721 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:05,721 | INFO | openai._base_client | Retrying request to /chat/completions in 0.999523 seconds
+2026-03-18 22:00:07,160 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:07,160 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+ Sorry for the inconvenience.<br/>
+Please report this message and include the following information to us.<br/>
+Thank you very much!</p>
+<table>
+<tr>
+<td>URL:</td>
+<td>https://api.ezai88.com/v1/chat/completions</td>
+</tr>
+<tr>
+<td>Server:</td>
+<td>instance-lqd8wjby</td>
+</tr>
+<tr>
+<td>Date:</td>
+<td>2026/03/18 22:00:06</td>
+</tr>
+</table>
+<hr/>Powered by Tengine<hr><center>tengine</center>
+</body>
+</html>
+2026-03-18 22:00:07,587 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:07,587 | INFO | openai._base_client | Retrying request to /chat/completions in 0.424616 seconds
+2026-03-18 22:00:08,452 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:08,453 | INFO | openai._base_client | Retrying request to /chat/completions in 0.822458 seconds
+2026-03-18 22:00:09,753 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:09,753 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+ Sorry for the inconvenience.<br/>
+Please report this message and include the following information to us.<br/>
+Thank you very much!</p>
+<table>
+<tr>
+<td>URL:</td>
+<td>https://api.ezai88.com/v1/chat/completions</td>
+</tr>
+<tr>
+<td>Server:</td>
+<td>instance-lqd8wjby</td>
+</tr>
+<tr>
+<td>Date:</td>
+<td>2026/03/18 22:00:09</td>
+</tr>
+</table>
+<hr/>Powered by Tengine<hr><center>tengine</center>
+</body>
+</html>
+2026-03-18 22:00:09,755 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:00:09,755 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:00:09,755 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:00:09,755 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 348it [1:20:49,  9.33s/it]2026-03-18 22:00:09,756 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:00:10,213 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:10,213 | INFO | openai._base_client | Retrying request to /chat/completions in 0.460839 seconds
+2026-03-18 22:00:11,357 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:11,357 | INFO | openai._base_client | Retrying request to /chat/completions in 0.958014 seconds
+2026-03-18 22:00:12,747 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:12,747 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+ Sorry for the inconvenience.<br/>
+Please report this message and include the following information to us.<br/>
+Thank you very much!</p>
+<table>
+<tr>
+<td>URL:</td>
+<td>https://api.ezai88.com/v1/chat/completions</td>
+</tr>
+<tr>
+<td>Server:</td>
+<td>instance-lqd8wjby</td>
+</tr>
+<tr>
+<td>Date:</td>
+<td>2026/03/18 22:00:12</td>
+</tr>
+</table>
+<hr/>Powered by Tengine<hr><center>tengine</center>
+</body>
+</html>
+2026-03-18 22:00:13,164 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:13,164 | INFO | openai._base_client | Retrying request to /chat/completions in 0.459235 seconds
+2026-03-18 22:00:14,044 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:14,045 | INFO | openai._base_client | Retrying request to /chat/completions in 0.933172 seconds
+2026-03-18 22:00:15,393 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:15,393 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+ Sorry for the inconvenience.<br/>
+Please report this message and include the following information to us.<br/>
+Thank you very much!</p>
+<table>
+<tr>
+<td>URL:</td>
+<td>https://api.ezai88.com/v1/chat/completions</td>
+</tr>
+<tr>
+<td>Server:</td>
+<td>instance-lqd8wjby</td>
+</tr>
+<tr>
+<td>Date:</td>
+<td>2026/03/18 22:00:14</td>
+</tr>
+</table>
+<hr/>Powered by Tengine<hr><center>tengine</center>
+</body>
+</html>
+2026-03-18 22:00:15,861 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:15,861 | INFO | openai._base_client | Retrying request to /chat/completions in 0.401806 seconds
+2026-03-18 22:00:16,631 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:16,631 | INFO | openai._base_client | Retrying request to /chat/completions in 0.959204 seconds
+2026-03-18 22:00:18,442 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:18,442 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+ Sorry for the inconvenience.<br/>
+Please report this message and include the following information to us.<br/>
+Thank you very much!</p>
+<table>
+<tr>
+<td>URL:</td>
+<td>https://api.ezai88.com/v1/chat/completions</td>
+</tr>
+<tr>
+<td>Server:</td>
+<td>instance-lqd8wjby</td>
+</tr>
+<tr>
+<td>Date:</td>
+<td>2026/03/18 22:00:17</td>
+</tr>
+</table>
+<hr/>Powered by Tengine<hr><center>tengine</center>
+</body>
+</html>
+2026-03-18 22:00:19,144 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:19,144 | INFO | openai._base_client | Retrying request to /chat/completions in 0.455798 seconds
+2026-03-18 22:00:20,092 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:20,093 | INFO | openai._base_client | Retrying request to /chat/completions in 0.983078 seconds
+2026-03-18 22:00:21,486 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:21,486 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+ Sorry for the inconvenience.<br/>
+Please report this message and include the following information to us.<br/>
+Thank you very much!</p>
+<table>
+<tr>
+<td>URL:</td>
+<td>https://api.ezai88.com/v1/chat/completions</td>
+</tr>
+<tr>
+<td>Server:</td>
+<td>instance-lqd8wjby</td>
+</tr>
+<tr>
+<td>Date:</td>
+<td>2026/03/18 22:00:20</td>
+</tr>
+</table>
+<hr/>Powered by Tengine<hr><center>tengine</center>
+</body>
+</html>
+2026-03-18 22:00:21,488 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:00:21,488 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:00:21,488 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:00:21,488 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 352it [1:21:00,  7.41s/it]2026-03-18 22:00:21,489 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:00:21,976 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:21,976 | INFO | openai._base_client | Retrying request to /chat/completions in 0.375103 seconds
+2026-03-18 22:00:22,862 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:22,862 | INFO | openai._base_client | Retrying request to /chat/completions in 0.952782 seconds
+2026-03-18 22:00:24,330 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:24,330 | ERROR | backend | APIBackend error on prompt 1/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1047, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.InternalServerError: <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+ Sorry for the inconvenience.<br/>
+Please report this message and include the following information to us.<br/>
+Thank you very much!</p>
+<table>
+<tr>
+<td>URL:</td>
+<td>https://api.ezai88.com/v1/chat/completions</td>
+</tr>
+<tr>
+<td>Server:</td>
+<td>instance-lqd8wjby</td>
+</tr>
+<tr>
+<td>Date:</td>
+<td>2026/03/18 22:00:23</td>
+</tr>
+</table>
+<hr/>Powered by Tengine<hr><center>tengine</center>
+</body>
+</html>
+2026-03-18 22:00:24,878 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2026-03-18 22:00:24,878 | INFO | openai._base_client | Retrying request to /chat/completions in 0.424891 seconds
+2026-03-18 22:00:52,753 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:01:38,003 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:03:38,007 | INFO | openai._base_client | Retrying request to /chat/completions in 0.447724 seconds
+2026-03-18 22:03:50,513 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:03:50,514 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:03:50,515 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:03:50,515 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:03:50,515 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 356it [1:24:29, 20.86s/it]2026-03-18 22:03:50,516 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:04:02,213 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:04:31,946 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:04:45,831 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:04:53,290 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:04:53,291 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:04:53,291 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:04:53,291 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:04:53,291 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 360it [1:25:32, 19.31s/it]2026-03-18 22:04:53,293 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:05:06,507 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:05:19,760 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:05:36,869 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:05:59,615 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:05:59,616 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:05:59,616 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:05:59,616 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:05:59,617 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 364it [1:26:39, 18.49s/it]2026-03-18 22:05:59,618 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:06:18,602 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:06:38,005 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:06:45,769 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:07:16,446 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:07:16,447 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:07:16,447 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:07:16,448 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:07:16,448 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 368it [1:27:55, 18.71s/it]2026-03-18 22:07:16,449 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:07:38,819 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:07:49,668 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:08:03,983 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:08:12,699 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:08:12,699 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:08:12,700 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:08:12,700 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:08:12,700 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 372it [1:28:52, 17.31s/it]2026-03-18 22:08:12,701 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:08:50,924 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:09:00,596 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:09:13,077 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:09:26,663 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:09:26,664 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:09:26,664 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:09:26,665 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:09:26,665 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 376it [1:30:06, 17.67s/it]2026-03-18 22:09:26,666 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:09:33,215 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:09:56,603 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:10:09,689 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:10:40,036 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:10:40,038 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:10:40,038 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:10:40,038 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:10:40,039 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 380it [1:31:19, 17.87s/it]2026-03-18 22:10:40,041 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:10:51,881 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:11:02,210 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:11:22,525 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:11:36,353 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:11:36,354 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:11:36,354 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:11:36,355 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:11:36,355 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 384it [1:32:15, 16.73s/it]2026-03-18 22:11:36,356 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:11:44,205 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:11:53,496 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:11:57,725 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:12:04,825 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:12:04,826 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:12:04,827 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:12:04,827 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:12:04,827 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 388it [1:32:44, 13.85s/it]2026-03-18 22:12:04,828 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:12:09,933 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:12:16,317 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:12:27,889 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:12:32,215 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:12:32,217 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:12:32,217 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:12:32,217 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:12:32,217 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 392it [1:33:11, 11.75s/it]2026-03-18 22:12:32,218 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:12:38,123 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:12:48,709 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:12:56,981 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:13:09,305 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:13:09,306 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:13:09,306 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:13:09,306 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:13:09,307 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 396it [1:33:48, 11.01s/it]2026-03-18 22:13:09,308 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:13:20,227 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:13:33,425 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:13:41,298 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:14:01,418 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:14:01,419 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:14:01,419 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:14:01,419 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:14:01,420 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 400it [1:34:40, 11.61s/it]2026-03-18 22:14:01,421 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:14:26,121 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:14:53,115 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:15:04,293 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:15:10,798 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:15:10,800 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:15:10,800 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:15:10,801 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:15:10,801 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 404it [1:35:50, 13.33s/it]2026-03-18 22:15:10,802 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:15:27,351 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:15:36,911 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:15:41,930 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:16:13,782 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:16:13,784 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:16:13,784 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:16:13,784 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:16:13,784 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 408it [1:36:53, 14.06s/it]2026-03-18 22:16:13,785 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:16:25,912 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:16:30,547 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:16:34,473 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:17:31,040 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:17:31,041 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:17:31,041 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:17:31,041 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:17:31,041 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 412it [1:38:10, 15.63s/it]2026-03-18 22:17:31,043 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:17:40,117 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:18:37,173 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:18:48,473 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:19:03,390 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:19:03,391 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:19:03,391 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:19:03,392 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:19:03,392 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 416it [1:39:42, 17.87s/it]2026-03-18 22:19:03,393 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:19:13,284 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:19:21,502 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:19:27,326 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:19:39,904 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:19:39,905 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:19:39,905 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:19:39,906 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:19:39,906 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 420it [1:40:19, 15.25s/it]2026-03-18 22:19:39,907 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:20:01,969 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:20:13,043 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:21:20,616 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:21:51,865 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:21:51,866 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:21:51,866 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:21:51,867 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:21:51,867 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 424it [1:42:31, 20.57s/it]2026-03-18 22:21:51,868 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:22:03,129 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:22:17,013 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:22:35,618 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:22:48,295 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:22:48,296 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:22:48,296 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:22:48,297 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:22:48,297 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 428it [1:43:27, 18.63s/it]2026-03-18 22:22:48,298 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:22:55,464 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:23:08,794 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:23:20,296 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:23:26,762 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:23:26,763 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:23:26,763 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:23:26,763 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:23:26,763 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 432it [1:44:06, 15.93s/it]2026-03-18 22:23:26,764 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:23:48,714 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:24:05,583 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:24:12,334 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:24:29,472 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:24:29,474 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:24:29,474 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:24:29,474 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:24:29,474 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 436it [1:45:08, 15.85s/it]2026-03-18 22:24:29,475 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:24:39,134 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:24:43,670 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:25:18,998 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:25:26,090 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:25:26,091 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:25:26,091 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:25:26,091 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:25:26,091 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 440it [1:46:05, 15.34s/it]2026-03-18 22:25:26,093 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:26:22,092 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:27:00,138 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:27:25,177 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:27:37,483 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:27:37,484 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:27:37,485 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:27:37,485 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:27:37,485 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 444it [1:48:16, 20.59s/it]2026-03-18 22:27:37,486 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:27:54,774 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:28:08,067 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:28:24,512 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:28:30,609 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:28:30,611 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:28:30,611 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:28:30,611 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:28:30,612 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 448it [1:49:10, 18.40s/it]2026-03-18 22:28:30,612 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:28:52,029 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:29:00,533 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:29:14,415 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:29:48,310 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:29:48,311 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:29:48,312 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:29:48,312 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:29:48,312 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 452it [1:50:27, 18.71s/it]2026-03-18 22:29:48,313 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:29:56,212 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:30:09,796 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:30:16,967 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:30:35,491 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:30:35,492 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:30:35,492 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:30:35,492 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:30:35,493 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 456it [1:51:14, 16.63s/it]2026-03-18 22:30:35,494 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:30:49,998 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:31:03,720 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:31:17,536 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:31:25,616 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:31:25,618 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:31:25,618 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:31:25,619 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:31:25,619 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 460it [1:52:05, 15.40s/it]2026-03-18 22:31:25,620 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:31:56,738 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:32:14,000 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:32:38,672 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:33:05,925 | INFO | openai._base_client | Retrying request to /chat/completions in 0.446558 seconds
+2026-03-18 22:33:29,260 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:33:29,261 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:33:29,261 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:33:29,261 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:33:29,262 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 464it [1:54:08, 20.06s/it]2026-03-18 22:33:29,262 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:33:39,378 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:33:47,229 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:34:05,957 | INFO | openai._base_client | Retrying request to /chat/completions in 0.427071 seconds
+2026-03-18 22:34:18,748 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:34:25,790 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:34:25,792 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:34:25,792 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:34:25,792 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:34:25,793 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 468it [1:55:05, 18.28s/it]2026-03-18 22:34:25,793 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:34:29,822 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:34:38,711 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:34:45,405 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:35:41,193 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:35:41,195 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:35:41,195 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:35:41,195 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:35:41,195 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 472it [1:56:20, 18.45s/it]2026-03-18 22:35:41,196 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:35:48,652 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:36:03,740 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:36:16,791 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:36:31,521 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:36:31,522 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:36:31,522 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:36:31,522 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:36:31,522 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 476it [1:57:10, 16.69s/it]2026-03-18 22:36:31,524 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:37:00,736 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:37:31,875 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:37:46,134 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:37:59,213 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:37:59,214 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:37:59,215 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:37:59,215 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:37:59,215 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 480it [1:58:38, 18.26s/it]2026-03-18 22:37:59,216 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:38:26,871 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:38:43,445 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:38:52,672 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:39:07,640 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:39:07,641 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:39:07,641 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:39:07,641 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:39:07,643 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 484it [1:59:47, 17.91s/it]2026-03-18 22:39:07,644 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:39:17,997 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:39:47,676 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:40:10,141 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:40:23,341 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:40:23,343 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:40:23,343 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:40:23,343 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:40:23,344 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 488it [2:01:02, 18.22s/it]2026-03-18 22:40:23,345 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:40:38,200 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:41:58,625 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:42:06,971 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:42:09,919 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:42:09,920 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:42:09,920 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:42:09,920 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:42:09,921 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 492it [2:02:49, 20.75s/it]2026-03-18 22:42:09,921 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:42:14,870 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:42:19,389 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:42:24,828 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:42:30,721 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:42:30,722 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:42:30,722 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:42:30,722 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:42:30,723 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 496it [2:03:10, 16.08s/it]2026-03-18 22:42:30,724 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-18 22:42:33,525 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:42:39,729 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:42:43,126 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:42:56,906 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-18 22:42:56,907 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:42:56,907 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:42:56,907 | INFO | __main__ | Flushing batch | size=4
+2026-03-18 22:42:56,908 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 500it [2:03:36, 13.22s/it]Processing samples: 500it [2:03:36, 14.83s/it]

@@ -28,11 +28,18 @@ class TreecEvaAnalyzer:
 
     
     def load_results(self):
-        """加载结果文件"""
+        """加载结果文件，若文件不存在则自动创建"""
+        path = Path(self.result_file)
+
+        if not path.exists():
+            print(f"结果文件不存在，自动创建: {path}")
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.touch()
+
         try:
-            with open(self.result_file, 'r', encoding='utf-8') as f:
+            with open(path, 'r', encoding='utf-8') as f:
                 for line in f:
-                    if line.strip(): # 跳过空行
+                    if line.strip():  # 跳过空行
                         self.results.append(json.loads(line.strip()))
             print(f"成功加载 {len(self.results)} 条结果")
             print("-" * 30)

@@ -1,0 +1,120 @@
+2026-03-25 11:56:31,944 | INFO | === retry_invalid.py 启动 ===
+2026-03-25 11:56:31,945 | INFO | 文件命名约定:  {model}_thought.jsonl
+2026-03-25 11:56:31,945 | INFO | 重试错误类型:  ['empty_output', 'no_assert_found']
+2026-03-25 11:56:31,945 | INFO | 每点最多尝试:  3 次
+2026-03-25 11:56:31,945 | INFO | 并发线程数:    20
+2026-03-25 11:56:31,945 | INFO | mode:          both
+2026-03-25 11:56:31,946 | INFO | ⚠ --dry-run 模式，不实际调用 API / eval_runner
+2026-03-25 11:56:31,946 | INFO | 加载数据集 C:\Users\caoye04\Desktop\bench\treeceva\data\cross_function_with_assert.jsonl ...
+2026-03-25 11:56:31,962 | INFO | 数据集加载完成，共 500 条
+2026-03-25 11:56:31,962 | INFO | 总 task 数: 20
+2026-03-25 11:56:31,962 | INFO | ============================================================
+2026-03-25 11:56:31,962 | INFO |   DeepSeek-V3.2-Thinking[ncot]                        ✓ 文件已存在
+2026-03-25 11:56:31,963 | INFO |   DeepSeek-V3.2-Thinking[cot]                         ✓ 文件已存在
+2026-03-25 11:56:31,963 | INFO |   GLM-4.5[ncot]                                       ✓ 文件已存在
+2026-03-25 11:56:31,963 | INFO |   GLM-4.5[cot]                                        ✓ 文件已存在
+2026-03-25 11:56:31,964 | INFO |   GLM-5[ncot]                                         ✓ 文件已存在
+2026-03-25 11:56:31,964 | INFO |   GLM-5[cot]                                          ✓ 文件已存在
+2026-03-25 11:56:31,964 | INFO |   MiniMax-M1-80k[ncot]                                ✓ 文件已存在
+2026-03-25 11:56:31,965 | INFO |   MiniMax-M1-80k[cot]                                 ✓ 文件已存在
+2026-03-25 11:56:31,965 | INFO |   MiniMax-M2[ncot]                                    ✓ 文件已存在
+2026-03-25 11:56:31,965 | INFO |   MiniMax-M2[cot]                                     ✓ 文件已存在
+2026-03-25 11:56:31,965 | INFO |   MiniMax-M2.5[ncot]                                  ✓ 文件已存在
+2026-03-25 11:56:31,965 | INFO |   MiniMax-M2.5[cot]                                   ✗ 文件缺失（将自动补全）
+2026-03-25 11:56:31,966 | INFO |   gemini-2.0-flash[ncot]                              ✓ 文件已存在
+2026-03-25 11:56:31,966 | INFO |   gemini-2.0-flash[cot]                               ✓ 文件已存在
+2026-03-25 11:56:31,966 | INFO |   gemini-2.5-flash[ncot]                              ✓ 文件已存在
+2026-03-25 11:56:31,966 | INFO |   gemini-2.5-flash[cot]                               ✓ 文件已存在
+2026-03-25 11:56:31,967 | INFO |   gemini-3-flash-preview[ncot]                        ✓ 文件已存在
+2026-03-25 11:56:31,967 | INFO |   gemini-3-flash-preview[cot]                         ✗ 文件缺失（将自动补全）
+2026-03-25 11:56:31,967 | INFO |   grok-4[ncot]                                        ✓ 文件已存在
+2026-03-25 11:56:31,967 | INFO |   grok-4[cot]                                         ✓ 文件已存在
+2026-03-25 11:56:31,968 | INFO | ============================================================
+2026-03-25 11:56:31,968 | INFO | ▶ START [DeepSeek-V3.2-Thinking[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\DeepSeek-V3.2-Thinking_thought.jsonl
+2026-03-25 11:56:31,969 | INFO | ▶ START [DeepSeek-V3.2-Thinking[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\DeepSeek-V3.2-Thinking_thought.jsonl
+2026-03-25 11:56:31,971 | INFO | ▶ START [GLM-4.5[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\GLM-4.5_thought.jsonl
+2026-03-25 11:56:31,971 | INFO | ▶ START [GLM-4.5[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\GLM-4.5_thought.jsonl
+2026-03-25 11:56:31,971 | INFO | ▶ START [GLM-5[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\GLM-5_thought.jsonl
+2026-03-25 11:56:31,973 | INFO | ▶ START [GLM-5[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\GLM-5_thought.jsonl
+2026-03-25 11:56:31,974 | INFO | [DeepSeek-V3.2-Thinking[ncot]] 总条目 500  |  需重试 170（empty_output, no_assert_found）
+2026-03-25 11:56:31,974 | INFO | [DeepSeek-V3.2-Thinking[ncot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:31,975 | INFO | ▶ START [MiniMax-M1-80k[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\MiniMax-M1-80k_thought.jsonl
+2026-03-25 11:56:31,975 | INFO | ▶ START [MiniMax-M1-80k[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\MiniMax-M1-80k_thought.jsonl
+2026-03-25 11:56:31,975 | INFO | ▶ START [MiniMax-M2[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\MiniMax-M2_thought.jsonl
+2026-03-25 11:56:31,976 | INFO | [GLM-4.5[ncot]] 总条目 500  |  需重试 251（empty_output, no_assert_found）
+2026-03-25 11:56:31,976 | INFO | [GLM-4.5[ncot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:31,976 | INFO | ▶ START [MiniMax-M2.5[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\MiniMax-M2.5_thought.jsonl
+2026-03-25 11:56:31,976 | INFO | ▶ START [MiniMax-M2.5[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\MiniMax-M2.5_thought.jsonl
+2026-03-25 11:56:31,977 | INFO | ▶ START [gemini-2.0-flash[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\gemini-2.0-flash_thought.jsonl
+2026-03-25 11:56:31,977 | INFO | ▶ START [MiniMax-M2[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\MiniMax-M2_thought.jsonl
+2026-03-25 11:56:31,977 | INFO | ▶ START [gemini-2.0-flash[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\gemini-2.0-flash_thought.jsonl
+2026-03-25 11:56:31,978 | INFO | ▶ START [gemini-2.5-flash[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\gemini-2.5-flash_thought.jsonl
+2026-03-25 11:56:31,978 | INFO | ▶ START [gemini-2.5-flash[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\gemini-2.5-flash_thought.jsonl
+2026-03-25 11:56:31,979 | INFO | ▶ START [gemini-3-flash-preview[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\gemini-3-flash-preview_thought.jsonl
+2026-03-25 11:56:31,979 | INFO | ▶ START [gemini-3-flash-preview[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\gemini-3-flash-preview_thought.jsonl
+2026-03-25 11:56:31,980 | INFO | [MiniMax-M2.5[cot]] 结果文件不存在，先执行 eval_runner.py 补全
+2026-03-25 11:56:31,981 | INFO | [MiniMax-M2.5[cot]] --dry-run，跳过 eval_runner.py 调用
+2026-03-25 11:56:31,981 | INFO | ▶ START [grok-4[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\grok-4_thought.jsonl
+2026-03-25 11:56:31,982 | INFO | [gemini-3-flash-preview[cot]] 结果文件不存在，先执行 eval_runner.py 补全
+2026-03-25 11:56:31,982 | INFO | [gemini-3-flash-preview[cot]] --dry-run，跳过 eval_runner.py 调用
+2026-03-25 11:56:31,983 | INFO | ▶ START [grok-4[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\grok-4_thought.jsonl
+2026-03-25 11:56:31,983 | INFO | [gemini-2.5-flash[ncot]] 总条目 500  |  需重试 121（empty_output, no_assert_found）
+2026-03-25 11:56:31,984 | INFO | [gemini-2.5-flash[ncot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:31,988 | INFO | [GLM-5[ncot]] 总条目 500  |  需重试 183（empty_output, no_assert_found）
+2026-03-25 11:56:31,988 | INFO | [GLM-5[ncot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:31,990 | INFO | [gemini-2.0-flash[ncot]] 总条目 500  |  需重试 104（empty_output, no_assert_found）
+2026-03-25 11:56:31,990 | INFO | [gemini-2.0-flash[ncot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:32,014 | INFO | [MiniMax-M2[ncot]] 总条目 500  |  需重试 367（empty_output, no_assert_found）
+2026-03-25 11:56:32,014 | INFO | [MiniMax-M2[ncot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:32,017 | INFO | [DeepSeek-V3.2-Thinking[cot]] 总条目 500  |  需重试 203（empty_output, no_assert_found）
+2026-03-25 11:56:32,018 | INFO | [DeepSeek-V3.2-Thinking[cot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:32,022 | INFO | [grok-4[cot]] 总条目 500  |  需重试 196（empty_output, no_assert_found）
+2026-03-25 11:56:32,023 | INFO | [grok-4[cot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:32,024 | INFO | [MiniMax-M1-80k[ncot]] 总条目 500  |  需重试 255（empty_output, no_assert_found）
+2026-03-25 11:56:32,025 | INFO | [MiniMax-M1-80k[ncot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:32,025 | INFO | [MiniMax-M2.5[ncot]] 总条目 500  |  需重试 367（empty_output, no_assert_found）
+2026-03-25 11:56:32,025 | INFO | [MiniMax-M2.5[ncot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:32,028 | INFO | [MiniMax-M2[cot]] 总条目 500  |  需重试 377（empty_output, no_assert_found）
+2026-03-25 11:56:32,029 | INFO | [MiniMax-M2[cot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:32,030 | INFO | [gemini-2.5-flash[cot]] 总条目 500  |  需重试 119（empty_output, no_assert_found）
+2026-03-25 11:56:32,030 | INFO | [gemini-2.5-flash[cot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:32,031 | INFO | [gemini-3-flash-preview[ncot]] 总条目 500  |  需重试 135（empty_output, no_assert_found）
+2026-03-25 11:56:32,031 | INFO | [gemini-3-flash-preview[ncot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:32,036 | INFO | [GLM-5[cot]] 总条目 500  |  需重试 341（empty_output, no_assert_found）
+2026-03-25 11:56:32,036 | INFO | [GLM-5[cot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:32,037 | INFO | [grok-4[ncot]] 总条目 500  |  需重试 194（empty_output, no_assert_found）
+2026-03-25 11:56:32,037 | INFO | [grok-4[ncot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:32,051 | INFO | [MiniMax-M1-80k[cot]] 总条目 500  |  需重试 189（empty_output, no_assert_found）
+2026-03-25 11:56:32,051 | INFO | [MiniMax-M1-80k[cot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:32,069 | INFO | [GLM-4.5[cot]] 总条目 500  |  需重试 367（empty_output, no_assert_found）
+2026-03-25 11:56:32,069 | INFO | [GLM-4.5[cot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:32,072 | INFO | [gemini-2.0-flash[cot]] 总条目 500  |  需重试 310（empty_output, no_assert_found）
+2026-03-25 11:56:32,072 | INFO | [gemini-2.0-flash[cot]] --dry-run，跳过重试 API 调用
+2026-03-25 11:56:32,073 | INFO | 
+2026-03-25 11:56:32,073 | INFO | ============================================================
+2026-03-25 11:56:32,073 | INFO | === 最终汇总 ===
+2026-03-25 11:56:32,073 | INFO | Task                                                          重试数       改善数
+2026-03-25 11:56:32,073 | INFO | ---------------------------------------------------------------------------
+2026-03-25 11:56:32,073 | INFO | DeepSeek-V3.2-Thinking[cot]                                   203         0
+2026-03-25 11:56:32,074 | INFO | DeepSeek-V3.2-Thinking[ncot]                                  170         0
+2026-03-25 11:56:32,074 | INFO | GLM-4.5[cot]                                                  367         0
+2026-03-25 11:56:32,074 | INFO | GLM-4.5[ncot]                                                 251         0
+2026-03-25 11:56:32,074 | INFO | GLM-5[cot]                                                    341         0
+2026-03-25 11:56:32,074 | INFO | GLM-5[ncot]                                                   183         0
+2026-03-25 11:56:32,074 | INFO | MiniMax-M1-80k[cot]                                           189         0
+2026-03-25 11:56:32,074 | INFO | MiniMax-M1-80k[ncot]                                          255         0
+2026-03-25 11:56:32,074 | INFO | MiniMax-M2.5[cot]                                               0         0
+2026-03-25 11:56:32,075 | INFO | MiniMax-M2.5[ncot]                                            367         0
+2026-03-25 11:56:32,075 | INFO | MiniMax-M2[cot]                                               377         0
+2026-03-25 11:56:32,075 | INFO | MiniMax-M2[ncot]                                              367         0
+2026-03-25 11:56:32,075 | INFO | gemini-2.0-flash[cot]                                         310         0
+2026-03-25 11:56:32,075 | INFO | gemini-2.0-flash[ncot]                                        104         0
+2026-03-25 11:56:32,075 | INFO | gemini-2.5-flash[cot]                                         119         0
+2026-03-25 11:56:32,075 | INFO | gemini-2.5-flash[ncot]                                        121         0
+2026-03-25 11:56:32,075 | INFO | gemini-3-flash-preview[cot]                                     0         0
+2026-03-25 11:56:32,075 | INFO | gemini-3-flash-preview[ncot]                                  135         0
+2026-03-25 11:56:32,075 | INFO | grok-4[cot]                                                   196         0
+2026-03-25 11:56:32,076 | INFO | grok-4[ncot]                                                  194         0
+2026-03-25 11:56:32,076 | INFO | ---------------------------------------------------------------------------
+2026-03-25 11:56:32,076 | INFO | 合计                                                           4249         0
+2026-03-25 11:56:32,076 | INFO | ============================================================

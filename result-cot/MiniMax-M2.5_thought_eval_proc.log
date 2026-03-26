@@ -1,0 +1,733 @@
+2026-03-25 11:58:59,262 | INFO | __main__ | Eval started
+2026-03-25 11:58:59,263 | INFO | __main__ | Backend: api
+2026-03-25 11:58:59,263 | INFO | __main__ | Output path: C:\Users\caoye04\Desktop\bench\treeceva\result-cot\MiniMax-M2.5_thought.jsonl
+2026-03-25 11:58:59,263 | INFO | __main__ | Batch size: 4
+2026-03-25 11:58:59,263 | INFO | __main__ | Temperature: 0.00
+2026-03-25 11:58:59,263 | INFO | __main__ | Cot: True
+2026-03-25 11:58:59,263 | INFO | __main__ | enable_thinking: False
+2026-03-25 11:59:01,486 | INFO | backend | Initializing APIBackend | model=MiniMax-M2.5 | base_url=https://llmapi.paratera.com/v1/
+2026-03-25 11:59:03,622 | INFO | backend | APIBackend initialized successfully
+Processing samples: 0it [00:00, ?it/s]2026-03-25 11:59:03,631 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 12:01:04,390 | INFO | openai._base_client | Retrying request to /chat/completions in 0.380370 seconds
+2026-03-25 12:01:28,951 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:02:48,314 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:03:12,403 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:04:23,081 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:04:23,090 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:04:23,090 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:04:23,090 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:04:23,091 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 4it [05:19, 79.87s/it]2026-03-25 12:04:23,094 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 12:04:56,204 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:05:09,696 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:07:09,724 | INFO | openai._base_client | Retrying request to /chat/completions in 0.485583 seconds
+2026-03-25 12:09:10,700 | INFO | openai._base_client | Retrying request to /chat/completions in 0.990750 seconds
+2026-03-25 12:10:20,036 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:10:38,553 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:10:38,553 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:10:38,554 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:10:38,554 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:10:38,554 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 8it [11:34, 88.10s/it]2026-03-25 12:10:38,554 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 12:10:59,385 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:11:42,575 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:12:08,377 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:12:39,113 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:12:39,117 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:12:39,117 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:12:39,117 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:12:39,117 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 12it [13:35, 61.64s/it]2026-03-25 12:12:39,118 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 12:14:39,124 | INFO | openai._base_client | Retrying request to /chat/completions in 0.476068 seconds
+2026-03-25 12:15:28,229 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:16:22,858 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:18:22,871 | INFO | openai._base_client | Retrying request to /chat/completions in 0.439951 seconds
+2026-03-25 12:20:23,915 | INFO | openai._base_client | Retrying request to /chat/completions in 0.982291 seconds
+2026-03-25 12:22:25,572 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http_proxy.py", line 343, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 982, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1000, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+2026-03-25 12:22:44,480 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:22:44,532 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:22:44,532 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:22:44,533 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:22:44,533 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 16it [23:40, 97.06s/it]2026-03-25 12:22:44,535 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 12:23:04,367 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:23:19,659 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:25:19,675 | INFO | openai._base_client | Retrying request to /chat/completions in 0.431114 seconds
+2026-03-25 12:27:20,620 | INFO | openai._base_client | Retrying request to /chat/completions in 0.967212 seconds
+2026-03-25 12:29:22,096 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http_proxy.py", line 343, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 982, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1000, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+2026-03-25 12:29:48,477 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:29:48,483 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:29:48,483 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:29:48,483 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:29:48,483 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 20it [30:44, 100.28s/it]2026-03-25 12:29:48,484 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 12:31:48,489 | INFO | openai._base_client | Retrying request to /chat/completions in 0.406554 seconds
+2026-03-25 12:33:21,585 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:34:38,559 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:34:54,054 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:35:07,200 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:35:07,201 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:35:07,201 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:35:07,201 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:35:07,201 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 24it [36:03, 93.27s/it] 2026-03-25 12:35:07,202 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 12:36:56,711 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:37:26,285 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:38:27,147 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:38:56,032 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:38:56,033 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:38:56,033 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:38:56,033 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:38:56,033 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 28it [39:52, 81.48s/it]2026-03-25 12:38:56,034 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 12:39:28,458 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:39:59,299 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:41:59,317 | INFO | openai._base_client | Retrying request to /chat/completions in 0.428074 seconds
+2026-03-25 12:42:30,170 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:42:49,317 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:42:49,320 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:42:49,320 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:42:49,321 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:42:49,321 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 32it [43:45, 74.11s/it]2026-03-25 12:42:49,322 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 12:43:13,033 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:44:01,193 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:45:00,142 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:46:07,426 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:46:07,499 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:46:07,499 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:46:07,499 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:46:07,499 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 36it [47:03, 66.43s/it]2026-03-25 12:46:07,501 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 12:46:18,430 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:46:37,721 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:46:49,728 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:48:15,787 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:48:15,805 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:48:15,805 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:48:15,805 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:48:15,805 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 40it [49:12, 55.82s/it]2026-03-25 12:48:15,807 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 12:48:31,641 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:48:48,401 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:49:48,726 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:50:20,282 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:50:20,283 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:50:20,283 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:50:20,283 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:50:20,283 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 44it [51:16, 48.26s/it]2026-03-25 12:50:20,283 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 12:50:52,798 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:51:20,828 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:51:35,555 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:51:57,022 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:51:57,037 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:51:57,038 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:51:57,039 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:51:57,039 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 48it [52:53, 40.94s/it]2026-03-25 12:51:57,041 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 12:53:24,684 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:53:45,093 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:54:09,538 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:54:18,008 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:54:18,009 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:54:18,009 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:54:18,009 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:54:18,009 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 52it [55:14, 39.21s/it]2026-03-25 12:54:18,010 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 12:54:39,281 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:56:39,290 | INFO | openai._base_client | Retrying request to /chat/completions in 0.497347 seconds
+2026-03-25 12:57:51,399 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:58:14,096 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:58:39,270 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 12:58:39,405 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:58:39,405 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:58:39,405 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 12:58:39,405 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 56it [59:35, 47.11s/it]2026-03-25 12:58:39,405 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 12:59:31,836 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:01:12,374 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:01:52,209 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:03:52,221 | INFO | openai._base_client | Retrying request to /chat/completions in 0.407127 seconds
+2026-03-25 13:04:57,045 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:04:57,046 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:04:57,046 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:04:57,046 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:04:57,046 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 60it [1:05:53, 61.37s/it]2026-03-25 13:04:57,047 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 13:06:00,018 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:08:00,027 | INFO | openai._base_client | Retrying request to /chat/completions in 0.399173 seconds
+2026-03-25 13:10:05,488 | INFO | openai._base_client | Retrying request to /chat/completions in 0.938420 seconds
+2026-03-25 13:12:10,150 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http_proxy.py", line 343, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 982, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1000, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+2026-03-25 13:12:30,983 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:13:33,781 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:13:33,782 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:13:33,782 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:13:33,782 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:13:33,782 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 64it [1:14:30, 81.78s/it]2026-03-25 13:13:33,783 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 13:14:53,124 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:15:51,880 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:16:12,612 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:16:38,241 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:16:38,267 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:16:38,267 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:16:38,267 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:16:38,267 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 68it [1:17:34, 71.06s/it]2026-03-25 13:16:38,268 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 13:16:59,530 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:17:25,893 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:19:25,912 | INFO | openai._base_client | Retrying request to /chat/completions in 0.441970 seconds
+2026-03-25 13:21:26,845 | INFO | openai._base_client | Retrying request to /chat/completions in 0.910917 seconds
+2026-03-25 13:23:28,360 | ERROR | backend | APIBackend error on prompt 3/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http_proxy.py", line 343, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 982, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1000, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+2026-03-25 13:25:29,162 | INFO | openai._base_client | Retrying request to /chat/completions in 0.475641 seconds
+2026-03-25 13:26:24,607 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:26:24,613 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:26:24,614 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:26:24,614 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:26:24,614 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 72it [1:27:20, 93.75s/it]2026-03-25 13:26:24,616 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 13:28:08,990 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:30:09,005 | INFO | openai._base_client | Retrying request to /chat/completions in 0.409869 seconds
+2026-03-25 13:31:46,667 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:31:56,258 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:33:37,935 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:33:37,946 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:33:37,946 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:33:37,946 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:33:37,947 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 76it [1:34:34, 98.13s/it]2026-03-25 13:33:37,947 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 13:34:18,098 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:34:24,341 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:36:24,348 | INFO | openai._base_client | Retrying request to /chat/completions in 0.445246 seconds
+2026-03-25 13:37:18,844 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:38:03,544 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:38:03,546 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:38:03,546 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:38:03,546 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:38:03,547 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 80it [1:38:59, 88.60s/it]2026-03-25 13:38:03,548 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 13:38:57,105 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:39:08,303 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:39:28,926 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:40:42,426 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:40:42,428 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:40:42,428 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:40:42,429 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:40:42,429 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 84it [1:41:38, 73.93s/it]2026-03-25 13:40:42,432 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 13:40:57,623 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:41:52,684 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:43:52,693 | INFO | openai._base_client | Retrying request to /chat/completions in 0.393603 seconds
+2026-03-25 13:45:36,447 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:46:28,668 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:46:28,669 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:46:28,669 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:46:28,669 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:46:28,669 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 88it [1:47:25, 77.72s/it]2026-03-25 13:46:28,670 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 13:46:42,842 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:46:59,817 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:48:59,835 | INFO | openai._base_client | Retrying request to /chat/completions in 0.396499 seconds
+2026-03-25 13:51:00,941 | INFO | openai._base_client | Retrying request to /chat/completions in 0.752842 seconds
+2026-03-25 13:51:49,458 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:52:27,247 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:52:27,264 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:52:27,264 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:52:27,265 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 13:52:27,265 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 92it [1:53:23, 81.30s/it]2026-03-25 13:52:27,267 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 13:54:27,276 | INFO | openai._base_client | Retrying request to /chat/completions in 0.383636 seconds
+2026-03-25 13:55:27,564 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 13:57:27,577 | INFO | openai._base_client | Retrying request to /chat/completions in 0.393496 seconds
+2026-03-25 13:59:03,342 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:00:31,701 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:02:31,719 | INFO | openai._base_client | Retrying request to /chat/completions in 0.422282 seconds
+2026-03-25 14:04:32,616 | INFO | openai._base_client | Retrying request to /chat/completions in 0.974489 seconds
+2026-03-25 14:06:35,550 | ERROR | backend | APIBackend error on prompt 4/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http_proxy.py", line 343, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 982, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1000, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+2026-03-25 14:06:35,554 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 14:06:35,554 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 14:06:35,554 | INFO | __main__ | Flushing batch | size=4
+2026-03-25 14:06:35,555 | INFO | __main__ | Flushing batch | size=4
+Processing samples: 96it [2:07:31, 120.54s/it]2026-03-25 14:06:35,556 | INFO | backend | APIBackend.generate_batch | batch_size=4
+2026-03-25 14:07:36,842 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:09:36,851 | INFO | openai._base_client | Retrying request to /chat/completions in 0.429287 seconds
+2026-03-25 14:11:37,848 | INFO | openai._base_client | Retrying request to /chat/completions in 0.764518 seconds
+2026-03-25 14:13:39,423 | ERROR | backend | APIBackend error on prompt 2/4
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http_proxy.py", line 343, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_backends\sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 982, in request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\caoye04\Desktop\bench\treeceva\backend.py", line 201, in generate_batch
+    resp = self.client.chat.completions.create(**request_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_utils\_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1147, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1259, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\caoye04\AppData\Local\Programs\Python\Python312\Lib\site-packages\openai\_base_client.py", line 1000, in request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+2026-03-25 14:15:34,300 | INFO | httpx | HTTP Request: POST https://llmapi.paratera.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:17:34,307 | INFO | openai._base_client | Retrying request to /chat/completions in 0.407009 seconds
+2026-03-25 14:19:35,368 | INFO | openai._base_client | Retrying request to /chat/completions in 0.888323 seconds

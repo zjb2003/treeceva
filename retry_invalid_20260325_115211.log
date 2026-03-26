@@ -1,0 +1,78 @@
+2026-03-25 11:52:11,834 | INFO | === retry_invalid.py 启动 ===
+2026-03-25 11:52:11,834 | INFO | 重试错误类型:  {'no_assert_found', 'empty_output'}
+2026-03-25 11:52:11,834 | INFO | 每点最多尝试:  3 次
+2026-03-25 11:52:11,834 | INFO | 并发线程数:    20
+2026-03-25 11:52:11,834 | INFO | mode:          both
+2026-03-25 11:52:11,834 | INFO | ⚠ --dry-run 模式，不实际调用 API
+2026-03-25 11:52:11,835 | INFO | 加载数据集 C:\Users\caoye04\Desktop\bench\treeceva\data\cross_function_with_assert.jsonl ...
+2026-03-25 11:52:11,865 | INFO | 数据集加载完成，共 500 条
+2026-03-25 11:52:11,865 | INFO | 总 task 数: 20
+2026-03-25 11:52:11,865 | INFO | ============================================================
+2026-03-25 11:52:11,866 | INFO | ▶ START [DeepSeek-V3.2-Thinking[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\DeepSeek-V3.2-Thinking.jsonl
+2026-03-25 11:52:11,866 | WARNING | ⚠ [DeepSeek-V3.2-Thinking[ncot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,867 | INFO | ▶ START [DeepSeek-V3.2-Thinking[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\DeepSeek-V3.2-Thinking.jsonl
+2026-03-25 11:52:11,867 | INFO | ▶ START [GLM-4.5[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\GLM-4.5.jsonl
+2026-03-25 11:52:11,867 | WARNING | ⚠ [GLM-4.5[ncot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,868 | INFO | ▶ START [GLM-5[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\GLM-5.jsonl
+2026-03-25 11:52:11,868 | INFO | ▶ START [GLM-4.5[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\GLM-4.5.jsonl
+2026-03-25 11:52:11,868 | INFO | ▶ START [GLM-5[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\GLM-5.jsonl
+2026-03-25 11:52:11,868 | WARNING | ⚠ [DeepSeek-V3.2-Thinking[cot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,869 | INFO | ▶ START [MiniMax-M1-80k[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\MiniMax-M1-80k.jsonl
+2026-03-25 11:52:11,869 | INFO | ▶ START [MiniMax-M1-80k[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\MiniMax-M1-80k.jsonl
+2026-03-25 11:52:11,869 | INFO | ▶ START [MiniMax-M2[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\MiniMax-M2.jsonl
+2026-03-25 11:52:11,869 | WARNING | ⚠ [GLM-5[ncot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,870 | INFO | ▶ START [grok-4[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\grok-4.jsonl
+2026-03-25 11:52:11,870 | WARNING | ⚠ [grok-4[ncot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,870 | WARNING | ⚠ [GLM-4.5[cot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,870 | INFO | ▶ START [MiniMax-M2.5[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\MiniMax-M2.5.jsonl
+2026-03-25 11:52:11,871 | WARNING | ⚠ [GLM-5[cot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,871 | INFO | ▶ START [gemini-2.0-flash[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\gemini-2.0-flash.jsonl
+2026-03-25 11:52:11,871 | INFO | ▶ START [gemini-2.0-flash[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\gemini-2.0-flash.jsonl
+2026-03-25 11:52:11,871 | INFO | ▶ START [gemini-2.5-flash[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\gemini-2.5-flash.jsonl
+2026-03-25 11:52:11,872 | INFO | ▶ START [gemini-2.5-flash[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\gemini-2.5-flash.jsonl
+2026-03-25 11:52:11,872 | WARNING | ⚠ [MiniMax-M1-80k[ncot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,872 | INFO | ▶ START [gemini-3-flash-preview[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\gemini-3-flash-preview.jsonl
+2026-03-25 11:52:11,873 | WARNING | ⚠ [MiniMax-M1-80k[cot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,873 | INFO | ▶ START [gemini-3-flash-preview[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\gemini-3-flash-preview.jsonl
+2026-03-25 11:52:11,873 | WARNING | ⚠ [MiniMax-M2[ncot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,874 | INFO | ▶ START [MiniMax-M2[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\MiniMax-M2.jsonl
+2026-03-25 11:52:11,874 | INFO | ▶ START [grok-4[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\grok-4.jsonl
+2026-03-25 11:52:11,874 | INFO | ▶ START [MiniMax-M2.5[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\MiniMax-M2.5.jsonl
+2026-03-25 11:52:11,874 | WARNING | ⚠ [MiniMax-M2.5[cot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,874 | WARNING | ⚠ [gemini-2.0-flash[ncot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,875 | WARNING | ⚠ [gemini-2.0-flash[cot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,875 | WARNING | ⚠ [gemini-2.5-flash[ncot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,875 | WARNING | ⚠ [gemini-2.5-flash[cot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,875 | WARNING | ⚠ [gemini-3-flash-preview[ncot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,875 | WARNING | ⚠ [gemini-3-flash-preview[cot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,875 | WARNING | ⚠ [MiniMax-M2[cot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,875 | WARNING | ⚠ [grok-4[cot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,876 | WARNING | ⚠ [MiniMax-M2.5[ncot]] 结果文件不存在，跳过
+2026-03-25 11:52:11,876 | INFO | 
+2026-03-25 11:52:11,876 | INFO | ============================================================
+2026-03-25 11:52:11,876 | INFO | === 最终汇总 ===
+2026-03-25 11:52:11,876 | INFO | Task                                                          重试数       改善数
+2026-03-25 11:52:11,878 | INFO | ---------------------------------------------------------------------------
+2026-03-25 11:52:11,878 | INFO | DeepSeek-V3.2-Thinking[cot]                                     0         0
+2026-03-25 11:52:11,878 | INFO | DeepSeek-V3.2-Thinking[ncot]                                    0         0
+2026-03-25 11:52:11,878 | INFO | GLM-4.5[cot]                                                    0         0
+2026-03-25 11:52:11,878 | INFO | GLM-4.5[ncot]                                                   0         0
+2026-03-25 11:52:11,878 | INFO | GLM-5[cot]                                                      0         0
+2026-03-25 11:52:11,878 | INFO | GLM-5[ncot]                                                     0         0
+2026-03-25 11:52:11,878 | INFO | MiniMax-M1-80k[cot]                                             0         0
+2026-03-25 11:52:11,879 | INFO | MiniMax-M1-80k[ncot]                                            0         0
+2026-03-25 11:52:11,879 | INFO | MiniMax-M2.5[cot]                                               0         0
+2026-03-25 11:52:11,879 | INFO | MiniMax-M2.5[ncot]                                              0         0
+2026-03-25 11:52:11,879 | INFO | MiniMax-M2[cot]                                                 0         0
+2026-03-25 11:52:11,879 | INFO | MiniMax-M2[ncot]                                                0         0
+2026-03-25 11:52:11,879 | INFO | gemini-2.0-flash[cot]                                           0         0
+2026-03-25 11:52:11,879 | INFO | gemini-2.0-flash[ncot]                                          0         0
+2026-03-25 11:52:11,879 | INFO | gemini-2.5-flash[cot]                                           0         0
+2026-03-25 11:52:11,880 | INFO | gemini-2.5-flash[ncot]                                          0         0
+2026-03-25 11:52:11,880 | INFO | gemini-3-flash-preview[cot]                                     0         0
+2026-03-25 11:52:11,880 | INFO | gemini-3-flash-preview[ncot]                                    0         0
+2026-03-25 11:52:11,880 | INFO | grok-4[cot]                                                     0         0
+2026-03-25 11:52:11,880 | INFO | grok-4[ncot]                                                    0         0
+2026-03-25 11:52:11,880 | INFO | ---------------------------------------------------------------------------
+2026-03-25 11:52:11,880 | INFO | 合计                                                              0         0
+2026-03-25 11:52:11,880 | INFO | ============================================================

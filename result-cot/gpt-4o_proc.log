@@ -1,11 +1,0 @@
-2026-03-18 20:39:16,612 | INFO | __main__ | Eval started
-2026-03-18 20:39:16,612 | INFO | __main__ | Backend: api
-2026-03-18 20:39:16,612 | INFO | __main__ | Output path: C:\Users\caoye04\Desktop\bench\treeceva\result-cot\gpt-4o.jsonl
-2026-03-18 20:39:16,612 | INFO | __main__ | Batch size: 4
-2026-03-18 20:39:16,612 | INFO | __main__ | Temperature: 0.00
-2026-03-18 20:39:16,612 | INFO | __main__ | Cot: True
-2026-03-18 20:39:16,612 | INFO | __main__ | enable_thinking: False
-2026-03-18 20:39:18,330 | INFO | backend | Initializing APIBackend | model=gpt-4o | base_url=https://api.ezai88.com/v1
-2026-03-18 20:39:20,525 | INFO | backend | APIBackend initialized successfully
-Processing samples: 0it [00:00, ?it/s]2026-03-18 20:39:20,544 | INFO | backend | APIBackend.generate_batch | batch_size=4
-2026-03-18 20:39:26,219 | INFO | httpx | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"

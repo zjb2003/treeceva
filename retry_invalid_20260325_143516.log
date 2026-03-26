@@ -1,0 +1,64 @@
+2026-03-25 14:35:16,175 | INFO | === retry_invalid.py 启动 ===
+2026-03-25 14:35:16,175 | INFO | mode=both  workers=20  dry_run=False
+2026-03-25 14:35:16,279 | INFO | ▶ START [DeepSeek-V3.2-Thinking[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\DeepSeek-V3.2-Thinking_thought.jsonl
+2026-03-25 14:35:16,279 | INFO | ▶ START [DeepSeek-V3.2-Thinking[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\DeepSeek-V3.2-Thinking_thought.jsonl
+2026-03-25 14:35:16,279 | INFO | ▶ START [GLM-4.5[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\GLM-4.5_thought.jsonl
+2026-03-25 14:35:16,280 | INFO | ▶ START [GLM-4.5[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\GLM-4.5_thought.jsonl
+2026-03-25 14:35:16,281 | INFO | ▶ START [GLM-5[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\GLM-5_thought.jsonl
+2026-03-25 14:35:16,282 | INFO | ▶ START [GLM-5[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\GLM-5_thought.jsonl
+2026-03-25 14:35:16,283 | INFO | [DeepSeek-V3.2-Thinking[ncot]] 总 500 条  |  需重试 170 条
+2026-03-25 14:35:16,283 | INFO | ▶ START [MiniMax-M1-80k[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\MiniMax-M1-80k_thought.jsonl
+2026-03-25 14:35:16,284 | INFO | ▶ START [MiniMax-M1-80k[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\MiniMax-M1-80k_thought.jsonl
+2026-03-25 14:35:16,285 | INFO | [DeepSeek-V3.2-Thinking[cot]] 总 500 条  |  需重试 203 条
+2026-03-25 14:35:16,285 | INFO | ▶ START [MiniMax-M2[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\MiniMax-M2_thought.jsonl
+2026-03-25 14:35:16,287 | INFO | ▶ START [MiniMax-M2[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\MiniMax-M2_thought.jsonl
+2026-03-25 14:35:16,288 | INFO | ▶ START [MiniMax-M2.5[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\MiniMax-M2.5_thought.jsonl
+2026-03-25 14:35:16,289 | INFO | ▶ START [MiniMax-M2.5[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\MiniMax-M2.5_thought.jsonl
+2026-03-25 14:35:16,290 | INFO | [GLM-4.5[ncot]] 总 500 条  |  需重试 251 条
+2026-03-25 14:35:16,290 | INFO | ▶ START [gemini-2.0-flash[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\gemini-2.0-flash_thought.jsonl
+2026-03-25 14:35:16,292 | INFO | ▶ START [gemini-2.0-flash[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\gemini-2.0-flash_thought.jsonl
+2026-03-25 14:35:16,294 | INFO | ▶ START [gemini-2.5-flash[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\gemini-2.5-flash_thought.jsonl
+2026-03-25 14:35:16,295 | INFO | [MiniMax-M1-80k[ncot]] 总 500 条  |  需重试 255 条
+2026-03-25 14:35:16,296 | INFO | ▶ START [gemini-2.5-flash[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\gemini-2.5-flash_thought.jsonl
+2026-03-25 14:35:16,296 | INFO | [GLM-5[ncot]] 总 500 条  |  需重试 183 条
+2026-03-25 14:35:16,297 | INFO | ▶ START [gemini-3-flash-preview[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\gemini-3-flash-preview_thought.jsonl
+2026-03-25 14:35:16,299 | INFO | ▶ START [gemini-3-flash-preview[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\gemini-3-flash-preview_thought.jsonl
+2026-03-25 14:35:16,300 | INFO | ▶ START [grok-4[ncot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\grok-4_thought.jsonl
+2026-03-25 14:35:16,302 | INFO | [MiniMax-M2[ncot]] 总 500 条  |  需重试 367 条
+2026-03-25 14:35:16,303 | INFO | ▶ START [grok-4[cot]]  →  C:\Users\caoye04\Desktop\bench\treeceva\result-cot\grok-4_thought.jsonl
+2026-03-25 14:35:16,306 | INFO | [GLM-4.5[cot]] 总 500 条  |  需重试 367 条
+2026-03-25 14:35:16,314 | INFO | [MiniMax-M2.5[cot]] 总 96 条  |  需重试 45 条
+2026-03-25 14:35:16,317 | INFO | [MiniMax-M2.5[ncot]] 总 500 条  |  需重试 367 条
+2026-03-25 14:35:16,317 | INFO | [MiniMax-M2[cot]] 总 500 条  |  需重试 377 条
+2026-03-25 14:35:16,323 | INFO | [GLM-5[cot]] 总 500 条  |  需重试 341 条
+2026-03-25 14:35:16,323 | INFO | [grok-4[ncot]] 总 500 条  |  需重试 194 条
+2026-03-25 14:35:16,327 | INFO | [gemini-3-flash-preview[ncot]] 总 500 条  |  需重试 39 条
+2026-03-25 14:35:16,331 | INFO | [gemini-2.5-flash[cot]] 总 500 条  |  需重试 77 条
+2026-03-25 14:35:16,334 | INFO | [gemini-2.5-flash[ncot]] 总 500 条  |  需重试 32 条
+2026-03-25 14:35:16,334 | INFO | [gemini-3-flash-preview[cot]] 总 500 条  |  需重试 104 条
+2026-03-25 14:35:16,335 | INFO | [MiniMax-M1-80k[cot]] 总 500 条  |  需重试 189 条
+2026-03-25 14:35:16,342 | INFO | [gemini-2.0-flash[cot]] 总 500 条  |  需重试 310 条
+2026-03-25 14:35:16,344 | INFO | [grok-4[cot]] 总 500 条  |  需重试 196 条
+2026-03-25 14:35:16,350 | INFO | [gemini-2.0-flash[ncot]] 总 500 条  |  需重试 33 条
+2026-03-25 14:35:27,090 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:35:31,893 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:35:31,894 | INFO | [gemini-3-flash-preview[ncot]] ✓ (1/39) id=id-00021                试=1  pred=10.0
+2026-03-25 14:35:31,948 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:35:31,949 | INFO | [gemini-3-flash-preview[cot]] ✓ (1/104) id=id-00014                试=1  pred=244.0
+2026-03-25 14:35:32,081 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:35:32,547 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:35:32,761 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:35:33,472 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 503 Service Unavailable"
+2026-03-25 14:35:33,473 | INFO | Retrying request to /chat/completions in 0.400760 seconds
+2026-03-25 14:35:40,216 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:35:40,727 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:35:41,131 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:35:41,288 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:35:42,787 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:35:47,404 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:35:49,505 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:35:49,505 | INFO | [gemini-2.5-flash[ncot]] ✗ (1/32) id=id-00038                试=3  pred=None
+2026-03-25 14:35:50,676 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:35:50,701 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:35:51,880 | INFO | HTTP Request: POST https://api.ezai88.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 14:35:51,880 | INFO | [gemini-2.5-flash[cot]] ✓ (1/77) id=id-00018                试=3  pred=22.0

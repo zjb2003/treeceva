@@ -39,3 +39,9 @@
 2026-03-18 20:52:41,117 | INFO | ✅ DONE  [gpt-4.1-mini[ncot]]
 2026-03-18 20:54:13,593 | INFO | ✅ DONE  [gpt-4[ncot]]
 2026-03-18 20:55:08,093 | INFO | ✅ DONE  [gpt-4o[ncot]]
+2026-03-18 21:42:56,018 | INFO | ✅ DONE  [gpt-4o[cot]]
+2026-03-18 22:42:57,425 | INFO | ✅ DONE  [gpt-4[cot]]
+2026-03-18 23:18:27,507 | ERROR | ❌ FAILED [gpt-5[cot]]  code=3221225786  详情见: C:\Users\caoye04\Desktop\bench\treeceva\result-cot\gpt-5_proc.log
+2026-03-18 23:18:27,514 | ERROR | ❌ FAILED [gpt-4.1-mini[cot]]  code=3221225786  详情见: C:\Users\caoye04\Desktop\bench\treeceva\result-cot\gpt-4.1-mini_proc.log
+2026-03-18 23:18:27,522 | ERROR | ❌ FAILED [gpt-5[ncot]]  code=3221225786  详情见: C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\gpt-5_proc.log
+2026-03-18 23:18:27,530 | ERROR | ❌ FAILED [o1[ncot]]  code=3221225786  详情见: C:\Users\caoye04\Desktop\bench\treeceva\result-ncot\o1_proc.log
